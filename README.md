@@ -8,7 +8,7 @@
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.7+-3178C6?style=flat-square&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3.4+-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)](https://tailwindcss.com/)
 [![Firebase Hosting](https://img.shields.io/badge/Hosted%20On-Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=black)](https://clause-pilot.web.app)
-[![License](https://img.shields.io/badge/License-MIT-green.style=flat-square)](LICENSE)
+[![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)](./LICENSE)
 
 **An end-to-end LegalTech & Document Intelligence platform that converts static legal contracts into structured, actionable obligation graphs, chronological timelines, automated reminders, and evidence-backed Q&A.**
 
