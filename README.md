@@ -7,12 +7,12 @@
 [![React](https://img.shields.io/badge/React-19.0-61DAFB?style=flat-square&logo=react&logoColor=black)](https://react.dev/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.7+-3178C6?style=flat-square&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3.4+-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)](https://tailwindcss.com/)
-[![Vite](https://img.shields.io/badge/Vite-6.0+-646CFF?style=flat-square&logo=vite&logoColor=white)](https://vitejs.dev/)
+[![Firebase Hosting](https://img.shields.io/badge/Hosted%20On-Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=black)](https://clause-pilot.web.app)
 [![License](https://img.shields.io/badge/License-MIT-green.style=flat-square)](LICENSE)
 
 **An end-to-end LegalTech & Document Intelligence platform that converts static legal contracts into structured, actionable obligation graphs, chronological timelines, automated reminders, and evidence-backed Q&A.**
 
-[Key Features](#-key-features) • [Architecture](#-architecture) • [Design System](#-editorial-precision-design-system) • [Quick Start](#-quick-start) • [Evaluation Benchmarks](#-evaluation-benchmarks) • [Demo Walkthrough](#-demo-walkthrough-2-minute-flow)
+[🚀 **Live Web App**](https://clause-pilot.web.app) • [Key Features](#-key-features) • [Architecture](#-architecture) • [Design System](#-editorial-precision-design-system) • [Quick Start](#-quick-start) • [Evaluation Benchmarks](#-evaluation-benchmarks) • [Demo Walkthrough](#-demo-walkthrough-2-minute-flow)
 
 </div>
 

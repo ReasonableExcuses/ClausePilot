@@ -1,0 +1,2998 @@
+{
+  "contract_summary": {
+    "id": "eee76876-aad8-4928-8a73-70d4c8cc2bfa",
+    "title": "Residential Rental Agreement",
+    "filename": "demo_agreement.pdf",
+    "total_pages": 3,
+    "clause_count": 12,
+    "obligation_count": 13,
+    "status": "processed",
+    "created_at": "2026-09-21T16:55:03.804399",
+    "parties": [
+      {
+        "id": "614d8ba5-809a-4917-b5fb-1829cf25b424",
+        "contract_id": "eee76876-aad8-4928-8a73-70d4c8cc2bfa",
+        "name": "Ms. Priya Verma",
+        "role": "Tenant"
+      },
+      {
+        "id": "604518e0-71fe-4738-afb7-2e878cdb5f8d",
+        "contract_id": "eee76876-aad8-4928-8a73-70d4c8cc2bfa",
+        "name": "Mr. Rajesh Sharma",
+        "role": "Landlord"
+      }
+    ]
+  },
+  "contract_detail": {
+    "id": "eee76876-aad8-4928-8a73-70d4c8cc2bfa",
+    "title": "Residential Rental Agreement",
+    "filename": "demo_agreement.pdf",
+    "file_path": "D:\\IDP\\data\\demo_agreement.pdf",
+    "total_pages": 3,
+    "clause_count": 12,
+    "obligation_count": 13,
+    "status": "processed",
+    "created_at": "2026-09-21T16:55:03.804399",
+    "parties": [
+      {
+        "id": "614d8ba5-809a-4917-b5fb-1829cf25b424",
+        "contract_id": "eee76876-aad8-4928-8a73-70d4c8cc2bfa",
+        "name": "Ms. Priya Verma",
+        "role": "Tenant"
+      },
+      {
+        "id": "604518e0-71fe-4738-afb7-2e878cdb5f8d",
+        "contract_id": "eee76876-aad8-4928-8a73-70d4c8cc2bfa",
+        "name": "Mr. Rajesh Sharma",
+        "role": "Landlord"
+      }
+    ],
+    "clauses": [
+      {
+        "id": "6a885e51-0469-4ee3-8a81-d85322771951",
+        "contract_id": "eee76876-aad8-4928-8a73-70d4c8cc2bfa",
+        "clause_number": "1",
+        "title": "Parties and Demised Premises",
+        "text": "This Residential Tenancy Agreement is made and entered into on this 1st day of January 2026, by and between Mr. Rajesh Sharma (hereinafter referred to as the 'Landlord') of the FIRST PART, and Ms. Priya Verma (hereinafter referred to as the 'Tenant') of the SECOND PART. The Landlord hereby lets and the Tenant agrees to take on rent the residential premises located at Flat 402, Greenview Heights, Sector 14, Gurugram, Haryana.",
+        "page_number": 1,
+        "preview": "Identifies Landlord Mr. Rajesh Sharma and Tenant Ms. Priya Verma letting Flat 402, Greenview Heights.",
+        "attention_flags": [],
+        "obligation_count": 0
+      },
+      {
+        "id": "9d110fc4-e3db-4672-a018-255138038d6e",
+        "contract_id": "eee76876-aad8-4928-8a73-70d4c8cc2bfa",
+        "clause_number": "2",
+        "title": "Term and Commencement",
+        "text": "The initial term of this tenancy shall be for a duration of 11 (eleven) months commencing on January 1, 2026, and expiring on November 30, 2026, unless renewed earlier by mutual written agreement. Any renewal shall require a fresh written agreement executed at least 30 days prior to the expiration of the ongoing term with mutually agreed escalation in rent.",
+        "page_number": 1,
+        "preview": "11-month lease term from Jan 1, 2026 to Nov 30, 2026, requiring 30 days renewal notice.",
+        "attention_flags": [],
+        "obligation_count": 0
+      },
+      {
+        "id": "17cfef50-1f53-4e63-bf54-83e0cc961eda",
+        "contract_id": "eee76876-aad8-4928-8a73-70d4c8cc2bfa",
+        "clause_number": "3",
+        "title": "Monthly Rent and Late Fees",
+        "text": "The Tenant shall pay to the Landlord a monthly rent of \u20b920,000 (Rupees Twenty Thousand only) on or before the 5th day of each calendar month in advance via direct electronic bank transfer. In the event of default or delayed payment, the Tenant agrees to pay a late payment fee of \u20b9500 per day of delay calculated from the 6th day of the month until the entire outstanding sum is remitted in full. Continued default exceeding 15 days shall constitute grounds for immediate termination.",
+        "page_number": 1,
+        "preview": "Tenant must pay \u20b920,000 monthly rent on or before the 5th. Late fee of \u20b9500/day applies upon delay.",
+        "attention_flags": [
+          {
+            "id": "flag-cond-1",
+            "type": "conditional_duty",
+            "title": "Conditional Duty Detected",
+            "description": "Contains 1 obligation(s) subject to preconditions or exceptions.",
+            "severity": "info"
+          }
+        ],
+        "obligation_count": 0
+      },
+      {
+        "id": "99160ab7-068b-41ae-8e70-b568720fe034",
+        "contract_id": "eee76876-aad8-4928-8a73-70d4c8cc2bfa",
+        "clause_number": "4",
+        "title": "Security Deposit and Refund",
+        "text": "The Tenant shall deposit and maintain with the Landlord an interest-free refundable security deposit of \u20b960,000 (Rupees Sixty Thousand only) upon execution of this agreement. The Landlord shall refund the security deposit within 30 days following the peaceful surrender of the premises, subject to permitted deductions for unpaid rent, unpaid utility dues, or documented structural damages beyond normal wear and tear.",
+        "page_number": 1,
+        "preview": "Security deposit of \u20b960,000 to be refunded within 30 days post-tenancy subject to deductions.",
+        "attention_flags": [
+          {
+            "id": "flag-cond-1",
+            "type": "conditional_duty",
+            "title": "Conditional Duty Detected",
+            "description": "Contains 1 obligation(s) subject to preconditions or exceptions.",
+            "severity": "info"
+          },
+          {
+            "id": "flag-fin-2",
+            "type": "high_financial_impact",
+            "title": "Financial Consequence or Penalty",
+            "description": "Specifies monetary penalties, late fees, or forfeiture terms upon default.",
+            "severity": "warning"
+          }
+        ],
+        "obligation_count": 0
+      },
+      {
+        "id": "562a4858-48dc-4075-88ad-a0e4985f7f38",
+        "contract_id": "eee76876-aad8-4928-8a73-70d4c8cc2bfa",
+        "clause_number": "5",
+        "title": "Utility Bills and Municipal Outgoings",
+        "text": "The Tenant shall promptly pay all charges for electricity, water, cooking gas, and high-speed internet consumed within 7 days of receiving the respective bill. The Tenant shall furnish copies of paid utility receipts to the Landlord upon request no later than the 10th of each calendar month. The Landlord shall remain solely liable for statutory property tax and building capital society sinking funds.",
+        "page_number": 2,
+        "preview": "Tenant pays utility charges within 7 days of invoice and furnishes receipts on request.",
+        "attention_flags": [
+          {
+            "id": "flag-cond-1",
+            "type": "conditional_duty",
+            "title": "Conditional Duty Detected",
+            "description": "Contains 1 obligation(s) subject to preconditions or exceptions.",
+            "severity": "info"
+          },
+          {
+            "id": "flag-dead-2",
+            "type": "strict_deadline",
+            "title": "Time-Sensitive Requirement",
+            "description": "Contains tight timelines or immediate performance requirements.",
+            "severity": "warning"
+          }
+        ],
+        "obligation_count": 0
+      },
+      {
+        "id": "1a26b474-af98-441e-8d70-944a117aa886",
+        "contract_id": "eee76876-aad8-4928-8a73-70d4c8cc2bfa",
+        "clause_number": "6",
+        "title": "Maintenance and Structural Repairs",
+        "text": "The Landlord shall complete necessary major structural and plumbing repairs within 7 days of written notification from the Tenant, provided such damage is not caused by the willful negligence or misuse of the Tenant. The Tenant is responsible for day-to-day cleanliness, waste disposal, and minor repairs of fuses, light bulbs, tap washers, and fittings at their own expense throughout the subsistence of the tenancy.",
+        "page_number": 2,
+        "preview": "Landlord completes structural repairs within 7 days. Tenant handles day-to-day minor repairs.",
+        "attention_flags": [
+          {
+            "id": "flag-cond-1",
+            "type": "conditional_duty",
+            "title": "Conditional Duty Detected",
+            "description": "Contains 1 obligation(s) subject to preconditions or exceptions.",
+            "severity": "info"
+          },
+          {
+            "id": "flag-dead-2",
+            "type": "strict_deadline",
+            "title": "Time-Sensitive Requirement",
+            "description": "Contains tight timelines or immediate performance requirements.",
+            "severity": "warning"
+          }
+        ],
+        "obligation_count": 0
+      },
+      {
+        "id": "008e8381-d8f8-4b86-989f-cff5a5e24fba",
+        "contract_id": "eee76876-aad8-4928-8a73-70d4c8cc2bfa",
+        "clause_number": "7",
+        "title": "Permitted Use and Prohibitions",
+        "text": "The Tenant agrees to use the premises strictly for private residential accommodation and shall not operate any commercial enterprise, business, or illegal activity therein. The Tenant shall not sublet, assign, or part with possession of the premises or any part thereof to any third party without obtaining prior written approval from the Landlord.",
+        "page_number": 2,
+        "preview": "Strictly residential use. Commercial operations and unauthorized subletting are prohibited.",
+        "attention_flags": [
+          {
+            "id": "flag-dead-1",
+            "type": "strict_deadline",
+            "title": "Time-Sensitive Requirement",
+            "description": "Contains tight timelines or immediate performance requirements.",
+            "severity": "warning"
+          }
+        ],
+        "obligation_count": 0
+      },
+      {
+        "id": "0940f1bd-09e1-44c2-b3af-3ac79da528d4",
+        "contract_id": "eee76876-aad8-4928-8a73-70d4c8cc2bfa",
+        "clause_number": "8",
+        "title": "Landlord Right of Inspection and Entry",
+        "text": "The Landlord or their authorized agent shall give at least 24 hours prior written notice before entering the premises for physical inspection or repair assessment. The Tenant shall permit inspection access during reasonable daylight hours between 10:00 AM and 6:00 PM following due notice, except in case of urgent emergency involving water leakage or fire.",
+        "page_number": 3,
+        "preview": "Landlord must provide 24 hours written notice before entering for daylight inspection.",
+        "attention_flags": [
+          {
+            "id": "flag-cond-1",
+            "type": "conditional_duty",
+            "title": "Conditional Duty Detected",
+            "description": "Contains 1 obligation(s) subject to preconditions or exceptions.",
+            "severity": "info"
+          }
+        ],
+        "obligation_count": 0
+      },
+      {
+        "id": "531cba78-96ff-4556-a16d-5ec3153300ee",
+        "contract_id": "eee76876-aad8-4928-8a73-70d4c8cc2bfa",
+        "clause_number": "9",
+        "title": "Alterations and Improvements",
+        "text": "The Tenant shall not carry out any structural alterations, permanent wall drillings, or repaintings without prior written consent from the Landlord. In the event of unapproved modifications, the Tenant shall restore the premises to its pristine original condition at the Tenant's sole expense prior to final vacation.",
+        "page_number": 3,
+        "preview": "Structural alterations require prior written consent. Tenant must restore unauthorized changes.",
+        "attention_flags": [
+          {
+            "id": "flag-dead-1",
+            "type": "strict_deadline",
+            "title": "Time-Sensitive Requirement",
+            "description": "Contains tight timelines or immediate performance requirements.",
+            "severity": "warning"
+          }
+        ],
+        "obligation_count": 0
+      },
+      {
+        "id": "421af754-2da3-4fcd-aa33-7b2f89eb1df9",
+        "contract_id": "eee76876-aad8-4928-8a73-70d4c8cc2bfa",
+        "clause_number": "10",
+        "title": "Termination and Notice Period",
+        "text": "Either party may terminate this agreement prior to the expiry of the lease term by providing at least 30 days prior written notice to the other party. If the Tenant vacates without serving the mandatory 30 days notice, the Landlord shall be entitled to forfeit one month's rent in lieu of notice. The Landlord may terminate with 7 days notice in the event of persistent breach of covenant.",
+        "page_number": 3,
+        "preview": "30 days prior written notice required by either party for early termination.",
+        "attention_flags": [
+          {
+            "id": "flag-cond-1",
+            "type": "conditional_duty",
+            "title": "Conditional Duty Detected",
+            "description": "Contains 1 obligation(s) subject to preconditions or exceptions.",
+            "severity": "info"
+          },
+          {
+            "id": "flag-fin-2",
+            "type": "high_financial_impact",
+            "title": "Financial Consequence or Penalty",
+            "description": "Specifies monetary penalties, late fees, or forfeiture terms upon default.",
+            "severity": "warning"
+          }
+        ],
+        "obligation_count": 0
+      },
+      {
+        "id": "4ea8a562-23f4-406f-bc72-6a7902678287",
+        "contract_id": "eee76876-aad8-4928-8a73-70d4c8cc2bfa",
+        "clause_number": "11",
+        "title": "Surrender of Premises and Key Handover",
+        "text": "The Tenant shall surrender vacant possession and return all original keys and access fobs to the Landlord by 12:00 PM on the final day of the tenancy. If the Tenant fails to vacate upon expiry or termination, the Tenant shall pay an unauthorized holding over charge of \u20b92,000 per calendar day until actual possession is delivered.",
+        "page_number": 3,
+        "preview": "Tenant must return keys by 12:00 PM on final day. Unauthorized stay incurs \u20b92,000/day charge.",
+        "attention_flags": [
+          {
+            "id": "flag-fin-1",
+            "type": "high_financial_impact",
+            "title": "Financial Consequence or Penalty",
+            "description": "Specifies monetary penalties, late fees, or forfeiture terms upon default.",
+            "severity": "warning"
+          }
+        ],
+        "obligation_count": 0
+      },
+      {
+        "id": "b81bec0c-9840-4131-a49a-844c563c7328",
+        "contract_id": "eee76876-aad8-4928-8a73-70d4c8cc2bfa",
+        "clause_number": "12",
+        "title": "Governing Law and Dispute Resolution",
+        "text": "This Agreement shall be governed and construed in accordance with the laws of India and the courts at Gurugram shall have exclusive jurisdiction. Both parties agree to attempt amicable conciliation within 15 days of written notice of any controversy prior to initiating formal arbitration proceedings under the Arbitration and Conciliation Act, 1996.",
+        "page_number": 4,
+        "preview": "Disputes subject to 15 days amicable conciliation before formal arbitration under Indian law.",
+        "attention_flags": [
+          {
+            "id": "flag-cond-1",
+            "type": "conditional_duty",
+            "title": "Conditional Duty Detected",
+            "description": "Contains 1 obligation(s) subject to preconditions or exceptions.",
+            "severity": "info"
+          }
+        ],
+        "obligation_count": 0
+      }
+    ],
+    "obligations": [
+      {
+        "id": "2047eaee-7193-4c7b-aca0-b8cf7c036039",
+        "contract_id": "eee76876-aad8-4928-8a73-70d4c8cc2bfa",
+        "clause_id": "17cfef50-1f53-4e63-bf54-83e0cc961eda",
+        "actor": "Tenant",
+        "action": "Pay monthly rent",
+        "object": "Monthly rent",
+        "amount": "\u20b920,000",
+        "frequency": "Monthly",
+        "trigger": "Beginning of each rental month",
+        "condition": null,
+        "deadline_text": "on or before the 5th day of each calendar month",
+        "normalized_deadline": "Day 5 of every month",
+        "consequence": "Late payment fee of \u20b9500 per day of delay",
+        "status": "Pending",
+        "confidence": 0.96,
+        "evidence_text": "The Tenant shall pay to the Landlord a monthly rent of \u20b920,000 on or before the 5th day of each calendar month in advance via direct electronic bank transfer.",
+        "source_page": 1,
+        "is_edited": false,
+        "edited_at": null
+      },
+      {
+        "id": "d7f03758-b8cc-4685-985f-009a55034d7b",
+        "contract_id": "eee76876-aad8-4928-8a73-70d4c8cc2bfa",
+        "clause_id": "17cfef50-1f53-4e63-bf54-83e0cc961eda",
+        "actor": "Tenant",
+        "action": "Pay late payment fee",
+        "object": "Late penalty",
+        "amount": "\u20b9500/day",
+        "frequency": "Daily upon delay",
+        "trigger": "Delayed payment beyond the 5th day",
+        "condition": "If rent remains unpaid beyond the 5th day of the month",
+        "deadline_text": "calculated from the 6th day until remitted in full",
+        "normalized_deadline": "Immediate upon breach",
+        "consequence": "Termination after 15 days default",
+        "status": "Pending",
+        "confidence": 0.92,
+        "evidence_text": "In the event of default or delayed payment, the Tenant agrees to pay a late payment fee of \u20b9500 per day of delay calculated from the 6th day of the month until the entire outstanding sum is remitted in full.",
+        "source_page": 1,
+        "is_edited": false,
+        "edited_at": null
+      },
+      {
+        "id": "ade62ce4-3e82-4a02-b47d-10ec62d5216d",
+        "contract_id": "eee76876-aad8-4928-8a73-70d4c8cc2bfa",
+        "clause_id": "99160ab7-068b-41ae-8e70-b568720fe034",
+        "actor": "Tenant",
+        "action": "Deposit security deposit",
+        "object": "Interest-free refundable deposit",
+        "amount": "\u20b960,000",
+        "frequency": "One-time",
+        "trigger": "Execution of tenancy agreement",
+        "condition": null,
+        "deadline_text": "upon execution of this agreement",
+        "normalized_deadline": "Contract signing date",
+        "consequence": "Withholding of possession",
+        "status": "Completed",
+        "confidence": 0.95,
+        "evidence_text": "The Tenant shall deposit and maintain with the Landlord an interest-free refundable security deposit of \u20b960,000 upon execution of this agreement.",
+        "source_page": 1,
+        "is_edited": false,
+        "edited_at": null
+      },
+      {
+        "id": "d549b371-bda8-4e2e-9abe-1aecf5153237",
+        "contract_id": "eee76876-aad8-4928-8a73-70d4c8cc2bfa",
+        "clause_id": "99160ab7-068b-41ae-8e70-b568720fe034",
+        "actor": "Landlord",
+        "action": "Refund security deposit",
+        "object": "Security deposit refund",
+        "amount": "\u20b960,000 (less deductions)",
+        "frequency": "One-time",
+        "trigger": "End of tenancy and peaceful surrender of premises",
+        "condition": "Subject to permitted deductions for unpaid rent, utilities, or documented damages",
+        "deadline_text": "within 30 days following the peaceful surrender of the premises",
+        "normalized_deadline": "Tenancy end date + 30 days",
+        "consequence": "Legal claim for wrongful withholding",
+        "status": "Pending",
+        "confidence": 0.93,
+        "evidence_text": "The Landlord shall refund the security deposit within 30 days following the peaceful surrender of the premises, subject to permitted deductions.",
+        "source_page": 1,
+        "is_edited": false,
+        "edited_at": null
+      },
+      {
+        "id": "cd5587e7-9aa9-4ccc-b461-de953030fc1c",
+        "contract_id": "eee76876-aad8-4928-8a73-70d4c8cc2bfa",
+        "clause_id": "562a4858-48dc-4075-88ad-a0e4985f7f38",
+        "actor": "Tenant",
+        "action": "Pay utility charges",
+        "object": "Electricity, water, gas, and internet bills",
+        "amount": "Actual billing amount",
+        "frequency": "Monthly",
+        "trigger": "Receipt of respective utility invoice",
+        "condition": null,
+        "deadline_text": "within 7 days of receiving the respective bill",
+        "normalized_deadline": "Bill receipt + 7 days",
+        "consequence": "Utility disconnection and recovery by Landlord",
+        "status": "Pending",
+        "confidence": 0.94,
+        "evidence_text": "The Tenant shall promptly pay all charges for electricity, water, cooking gas, and high-speed internet consumed within 7 days of receiving the respective bill.",
+        "source_page": 2,
+        "is_edited": false,
+        "edited_at": null
+      },
+      {
+        "id": "86428726-80c1-499f-94d2-8ff29012a493",
+        "contract_id": "eee76876-aad8-4928-8a73-70d4c8cc2bfa",
+        "clause_id": "562a4858-48dc-4075-88ad-a0e4985f7f38",
+        "actor": "Tenant",
+        "action": "Furnish utility receipts",
+        "object": "Copies of paid utility receipts",
+        "amount": null,
+        "frequency": "Monthly",
+        "trigger": "Landlord request",
+        "condition": "Upon request by the Landlord",
+        "deadline_text": "no later than the 10th of each calendar month",
+        "normalized_deadline": "Day 10 of each month",
+        "consequence": "Default presumption",
+        "status": "Pending",
+        "confidence": 0.88,
+        "evidence_text": "The Tenant shall furnish copies of paid utility receipts to the Landlord upon request no later than the 10th of each calendar month.",
+        "source_page": 2,
+        "is_edited": false,
+        "edited_at": null
+      },
+      {
+        "id": "cad11e6d-4a08-40ae-9467-71ec6f019130",
+        "contract_id": "eee76876-aad8-4928-8a73-70d4c8cc2bfa",
+        "clause_id": "1a26b474-af98-441e-8d70-944a117aa886",
+        "actor": "Landlord",
+        "action": "Complete major structural repairs",
+        "object": "Major structural and plumbing repairs",
+        "amount": null,
+        "frequency": "As needed",
+        "trigger": "Tenant reports qualifying maintenance issue in writing",
+        "condition": "Provided damage is not caused by willful negligence of Tenant",
+        "deadline_text": "within 7 days of written notification from the Tenant",
+        "normalized_deadline": "Notice date + 7 days",
+        "consequence": "Tenant right to repair and offset from subsequent rent",
+        "status": "Pending",
+        "confidence": 0.92,
+        "evidence_text": "The Landlord shall complete necessary major structural and plumbing repairs within 7 days of written notification from the Tenant, provided such damage is not caused by the willful negligence or misuse of the Tenant.",
+        "source_page": 2,
+        "is_edited": false,
+        "edited_at": null
+      },
+      {
+        "id": "cbe267d7-385d-475e-8ef7-57eae7a3776b",
+        "contract_id": "eee76876-aad8-4928-8a73-70d4c8cc2bfa",
+        "clause_id": "1a26b474-af98-441e-8d70-944a117aa886",
+        "actor": "Tenant",
+        "action": "Maintain minor fixtures and cleanliness",
+        "object": "Fuses, light bulbs, tap washers, and fittings",
+        "amount": null,
+        "frequency": "Ongoing",
+        "trigger": "Occupancy",
+        "condition": null,
+        "deadline_text": "throughout the subsistence of the tenancy",
+        "normalized_deadline": "Continuous lease term",
+        "consequence": "Deduction from security deposit",
+        "status": "Pending",
+        "confidence": 0.89,
+        "evidence_text": "The Tenant is responsible for day-to-day cleanliness, waste disposal, and minor repairs of fuses, light bulbs, tap washers, and fittings at their own expense throughout the subsistence of the tenancy.",
+        "source_page": 2,
+        "is_edited": false,
+        "edited_at": null
+      },
+      {
+        "id": "84729432-6ef1-4991-832a-47ecf1effc7f",
+        "contract_id": "eee76876-aad8-4928-8a73-70d4c8cc2bfa",
+        "clause_id": "0940f1bd-09e1-44c2-b3af-3ac79da528d4",
+        "actor": "Landlord",
+        "action": "Give advance inspection notice",
+        "object": "Prior written inspection notice",
+        "amount": null,
+        "frequency": "Per inspection",
+        "trigger": "Intent to inspect premises",
+        "condition": "Except in urgent emergency involving water leakage or fire",
+        "deadline_text": "at least 24 hours prior written notice",
+        "normalized_deadline": "Inspection time - 24 hours",
+        "consequence": "Tenant refusal permitted",
+        "status": "Pending",
+        "confidence": 0.91,
+        "evidence_text": "The Landlord or their authorized agent shall give at least 24 hours prior written notice before entering the premises for physical inspection or repair assessment.",
+        "source_page": 3,
+        "is_edited": false,
+        "edited_at": null
+      },
+      {
+        "id": "f1ec8c00-2916-4932-a2d5-61588cce0ba2",
+        "contract_id": "eee76876-aad8-4928-8a73-70d4c8cc2bfa",
+        "clause_id": "421af754-2da3-4fcd-aa33-7b2f89eb1df9",
+        "actor": "Tenant",
+        "action": "Provide termination notice",
+        "object": "Prior written termination notice",
+        "amount": null,
+        "frequency": "One-time",
+        "trigger": "Intention to terminate agreement prior to natural expiry",
+        "condition": null,
+        "deadline_text": "at least 30 days prior written notice",
+        "normalized_deadline": "Termination date - 30 days",
+        "consequence": "Forfeiture of one month's rent in lieu of notice",
+        "status": "Pending",
+        "confidence": 0.94,
+        "evidence_text": "Either party may terminate this agreement prior to the expiry of the lease term by providing at least 30 days prior written notice to the other party.",
+        "source_page": 3,
+        "is_edited": false,
+        "edited_at": null
+      },
+      {
+        "id": "d66187f8-a1df-45ff-916d-669a82e48bdb",
+        "contract_id": "eee76876-aad8-4928-8a73-70d4c8cc2bfa",
+        "clause_id": "421af754-2da3-4fcd-aa33-7b2f89eb1df9",
+        "actor": "Landlord",
+        "action": "Provide termination notice",
+        "object": "Prior written termination notice",
+        "amount": null,
+        "frequency": "One-time",
+        "trigger": "Intention to terminate agreement or persistent covenant breach",
+        "condition": "7 days in event of persistent covenant breach",
+        "deadline_text": "at least 30 days written notice",
+        "normalized_deadline": "Termination date - 30 days",
+        "consequence": "Invalid termination",
+        "status": "Pending",
+        "confidence": 0.91,
+        "evidence_text": "The Landlord may terminate with 7 days notice in the event of persistent breach of covenant or at least 30 days written notice.",
+        "source_page": 3,
+        "is_edited": false,
+        "edited_at": null
+      },
+      {
+        "id": "72e4128b-61b4-4a24-bf4a-b821f0ced842",
+        "contract_id": "eee76876-aad8-4928-8a73-70d4c8cc2bfa",
+        "clause_id": "4ea8a562-23f4-406f-bc72-6a7902678287",
+        "actor": "Tenant",
+        "action": "Surrender keys and vacant possession",
+        "object": "Keys, access fobs, and vacant possession",
+        "amount": null,
+        "frequency": "One-time",
+        "trigger": "Final day of tenancy",
+        "condition": null,
+        "deadline_text": "by 12:00 PM on the final day of the tenancy",
+        "normalized_deadline": "Final day 12:00 PM",
+        "consequence": "Holding over charge of \u20b92,000 per calendar day",
+        "status": "Pending",
+        "confidence": 0.95,
+        "evidence_text": "The Tenant shall surrender vacant possession and return all original keys and access fobs to the Landlord by 12:00 PM on the final day of the tenancy.",
+        "source_page": 3,
+        "is_edited": false,
+        "edited_at": null
+      },
+      {
+        "id": "cc37c228-6f04-4d01-9b33-61bead30b226",
+        "contract_id": "eee76876-aad8-4928-8a73-70d4c8cc2bfa",
+        "clause_id": "b81bec0c-9840-4131-a49a-844c563c7328",
+        "actor": "Either party",
+        "action": "Attempt amicable conciliation",
+        "object": "Conciliation and dispute negotiation",
+        "amount": null,
+        "frequency": "Upon dispute",
+        "trigger": "Any controversy or claim arising under this agreement",
+        "condition": "Prior to initiating formal arbitration",
+        "deadline_text": "within 15 days of written notice of any controversy",
+        "normalized_deadline": "Dispute notice + 15 days",
+        "consequence": "Referral to formal arbitration",
+        "status": "Pending",
+        "confidence": 0.88,
+        "evidence_text": "Both parties agree to attempt amicable conciliation within 15 days of written notice of any controversy prior to initiating formal arbitration proceedings.",
+        "source_page": 4,
+        "is_edited": false,
+        "edited_at": null
+      }
+    ],
+    "attention_flags": [
+      {
+        "id": "flag-cond-1",
+        "type": "conditional_duty",
+        "title": "Conditional Duty Detected",
+        "description": "Contains 1 obligation(s) subject to preconditions or exceptions.",
+        "severity": "info",
+        "clause_number": "3"
+      },
+      {
+        "id": "flag-cond-1",
+        "type": "conditional_duty",
+        "title": "Conditional Duty Detected",
+        "description": "Contains 1 obligation(s) subject to preconditions or exceptions.",
+        "severity": "info",
+        "clause_number": "4"
+      },
+      {
+        "id": "flag-fin-2",
+        "type": "high_financial_impact",
+        "title": "Financial Consequence or Penalty",
+        "description": "Specifies monetary penalties, late fees, or forfeiture terms upon default.",
+        "severity": "warning",
+        "clause_number": "4"
+      },
+      {
+        "id": "flag-cond-1",
+        "type": "conditional_duty",
+        "title": "Conditional Duty Detected",
+        "description": "Contains 1 obligation(s) subject to preconditions or exceptions.",
+        "severity": "info",
+        "clause_number": "5"
+      },
+      {
+        "id": "flag-dead-2",
+        "type": "strict_deadline",
+        "title": "Time-Sensitive Requirement",
+        "description": "Contains tight timelines or immediate performance requirements.",
+        "severity": "warning",
+        "clause_number": "5"
+      },
+      {
+        "id": "flag-cond-1",
+        "type": "conditional_duty",
+        "title": "Conditional Duty Detected",
+        "description": "Contains 1 obligation(s) subject to preconditions or exceptions.",
+        "severity": "info",
+        "clause_number": "6"
+      },
+      {
+        "id": "flag-dead-2",
+        "type": "strict_deadline",
+        "title": "Time-Sensitive Requirement",
+        "description": "Contains tight timelines or immediate performance requirements.",
+        "severity": "warning",
+        "clause_number": "6"
+      },
+      {
+        "id": "flag-dead-1",
+        "type": "strict_deadline",
+        "title": "Time-Sensitive Requirement",
+        "description": "Contains tight timelines or immediate performance requirements.",
+        "severity": "warning",
+        "clause_number": "7"
+      },
+      {
+        "id": "flag-cond-1",
+        "type": "conditional_duty",
+        "title": "Conditional Duty Detected",
+        "description": "Contains 1 obligation(s) subject to preconditions or exceptions.",
+        "severity": "info",
+        "clause_number": "8"
+      },
+      {
+        "id": "flag-dead-1",
+        "type": "strict_deadline",
+        "title": "Time-Sensitive Requirement",
+        "description": "Contains tight timelines or immediate performance requirements.",
+        "severity": "warning",
+        "clause_number": "9"
+      },
+      {
+        "id": "flag-cond-1",
+        "type": "conditional_duty",
+        "title": "Conditional Duty Detected",
+        "description": "Contains 1 obligation(s) subject to preconditions or exceptions.",
+        "severity": "info",
+        "clause_number": "10"
+      },
+      {
+        "id": "flag-fin-2",
+        "type": "high_financial_impact",
+        "title": "Financial Consequence or Penalty",
+        "description": "Specifies monetary penalties, late fees, or forfeiture terms upon default.",
+        "severity": "warning",
+        "clause_number": "10"
+      },
+      {
+        "id": "flag-fin-1",
+        "type": "high_financial_impact",
+        "title": "Financial Consequence or Penalty",
+        "description": "Specifies monetary penalties, late fees, or forfeiture terms upon default.",
+        "severity": "warning",
+        "clause_number": "11"
+      },
+      {
+        "id": "flag-cond-1",
+        "type": "conditional_duty",
+        "title": "Conditional Duty Detected",
+        "description": "Contains 1 obligation(s) subject to preconditions or exceptions.",
+        "severity": "info",
+        "clause_number": "12"
+      }
+    ]
+  },
+  "clauses": [
+    {
+      "id": "6a885e51-0469-4ee3-8a81-d85322771951",
+      "contract_id": "eee76876-aad8-4928-8a73-70d4c8cc2bfa",
+      "clause_number": "1",
+      "title": "Parties and Demised Premises",
+      "text": "This Residential Tenancy Agreement is made and entered into on this 1st day of January 2026, by and between Mr. Rajesh Sharma (hereinafter referred to as the 'Landlord') of the FIRST PART, and Ms. Priya Verma (hereinafter referred to as the 'Tenant') of the SECOND PART. The Landlord hereby lets and the Tenant agrees to take on rent the residential premises located at Flat 402, Greenview Heights, Sector 14, Gurugram, Haryana.",
+      "page_number": 1,
+      "preview": "Identifies Landlord Mr. Rajesh Sharma and Tenant Ms. Priya Verma letting Flat 402, Greenview Heights.",
+      "attention_flags": [],
+      "obligation_count": 0
+    },
+    {
+      "id": "9d110fc4-e3db-4672-a018-255138038d6e",
+      "contract_id": "eee76876-aad8-4928-8a73-70d4c8cc2bfa",
+      "clause_number": "2",
+      "title": "Term and Commencement",
+      "text": "The initial term of this tenancy shall be for a duration of 11 (eleven) months commencing on January 1, 2026, and expiring on November 30, 2026, unless renewed earlier by mutual written agreement. Any renewal shall require a fresh written agreement executed at least 30 days prior to the expiration of the ongoing term with mutually agreed escalation in rent.",
+      "page_number": 1,
+      "preview": "11-month lease term from Jan 1, 2026 to Nov 30, 2026, requiring 30 days renewal notice.",
+      "attention_flags": [],
+      "obligation_count": 0
+    },
+    {
+      "id": "17cfef50-1f53-4e63-bf54-83e0cc961eda",
+      "contract_id": "eee76876-aad8-4928-8a73-70d4c8cc2bfa",
+      "clause_number": "3",
+      "title": "Monthly Rent and Late Fees",
+      "text": "The Tenant shall pay to the Landlord a monthly rent of \u20b920,000 (Rupees Twenty Thousand only) on or before the 5th day of each calendar month in advance via direct electronic bank transfer. In the event of default or delayed payment, the Tenant agrees to pay a late payment fee of \u20b9500 per day of delay calculated from the 6th day of the month until the entire outstanding sum is remitted in full. Continued default exceeding 15 days shall constitute grounds for immediate termination.",
+      "page_number": 1,
+      "preview": "Tenant must pay \u20b920,000 monthly rent on or before the 5th. Late fee of \u20b9500/day applies upon delay.",
+      "attention_flags": [
+        {
+          "id": "flag-cond-1",
+          "type": "conditional_duty",
+          "title": "Conditional Duty Detected",
+          "description": "Contains 1 obligation(s) subject to preconditions or exceptions.",
+          "severity": "info"
+        }
+      ],
+      "obligation_count": 2
+    },
+    {
+      "id": "99160ab7-068b-41ae-8e70-b568720fe034",
+      "contract_id": "eee76876-aad8-4928-8a73-70d4c8cc2bfa",
+      "clause_number": "4",
+      "title": "Security Deposit and Refund",
+      "text": "The Tenant shall deposit and maintain with the Landlord an interest-free refundable security deposit of \u20b960,000 (Rupees Sixty Thousand only) upon execution of this agreement. The Landlord shall refund the security deposit within 30 days following the peaceful surrender of the premises, subject to permitted deductions for unpaid rent, unpaid utility dues, or documented structural damages beyond normal wear and tear.",
+      "page_number": 1,
+      "preview": "Security deposit of \u20b960,000 to be refunded within 30 days post-tenancy subject to deductions.",
+      "attention_flags": [
+        {
+          "id": "flag-cond-1",
+          "type": "conditional_duty",
+          "title": "Conditional Duty Detected",
+          "description": "Contains 1 obligation(s) subject to preconditions or exceptions.",
+          "severity": "info"
+        },
+        {
+          "id": "flag-fin-2",
+          "type": "high_financial_impact",
+          "title": "Financial Consequence or Penalty",
+          "description": "Specifies monetary penalties, late fees, or forfeiture terms upon default.",
+          "severity": "warning"
+        }
+      ],
+      "obligation_count": 2
+    },
+    {
+      "id": "562a4858-48dc-4075-88ad-a0e4985f7f38",
+      "contract_id": "eee76876-aad8-4928-8a73-70d4c8cc2bfa",
+      "clause_number": "5",
+      "title": "Utility Bills and Municipal Outgoings",
+      "text": "The Tenant shall promptly pay all charges for electricity, water, cooking gas, and high-speed internet consumed within 7 days of receiving the respective bill. The Tenant shall furnish copies of paid utility receipts to the Landlord upon request no later than the 10th of each calendar month. The Landlord shall remain solely liable for statutory property tax and building capital society sinking funds.",
+      "page_number": 2,
+      "preview": "Tenant pays utility charges within 7 days of invoice and furnishes receipts on request.",
+      "attention_flags": [
+        {
+          "id": "flag-cond-1",
+          "type": "conditional_duty",
+          "title": "Conditional Duty Detected",
+          "description": "Contains 1 obligation(s) subject to preconditions or exceptions.",
+          "severity": "info"
+        },
+        {
+          "id": "flag-dead-2",
+          "type": "strict_deadline",
+          "title": "Time-Sensitive Requirement",
+          "description": "Contains tight timelines or immediate performance requirements.",
+          "severity": "warning"
+        }
+      ],
+      "obligation_count": 2
+    },
+    {
+      "id": "1a26b474-af98-441e-8d70-944a117aa886",
+      "contract_id": "eee76876-aad8-4928-8a73-70d4c8cc2bfa",
+      "clause_number": "6",
+      "title": "Maintenance and Structural Repairs",
+      "text": "The Landlord shall complete necessary major structural and plumbing repairs within 7 days of written notification from the Tenant, provided such damage is not caused by the willful negligence or misuse of the Tenant. The Tenant is responsible for day-to-day cleanliness, waste disposal, and minor repairs of fuses, light bulbs, tap washers, and fittings at their own expense throughout the subsistence of the tenancy.",
+      "page_number": 2,
+      "preview": "Landlord completes structural repairs within 7 days. Tenant handles day-to-day minor repairs.",
+      "attention_flags": [
+        {
+          "id": "flag-cond-1",
+          "type": "conditional_duty",
+          "title": "Conditional Duty Detected",
+          "description": "Contains 1 obligation(s) subject to preconditions or exceptions.",
+          "severity": "info"
+        },
+        {
+          "id": "flag-dead-2",
+          "type": "strict_deadline",
+          "title": "Time-Sensitive Requirement",
+          "description": "Contains tight timelines or immediate performance requirements.",
+          "severity": "warning"
+        }
+      ],
+      "obligation_count": 2
+    },
+    {
+      "id": "008e8381-d8f8-4b86-989f-cff5a5e24fba",
+      "contract_id": "eee76876-aad8-4928-8a73-70d4c8cc2bfa",
+      "clause_number": "7",
+      "title": "Permitted Use and Prohibitions",
+      "text": "The Tenant agrees to use the premises strictly for private residential accommodation and shall not operate any commercial enterprise, business, or illegal activity therein. The Tenant shall not sublet, assign, or part with possession of the premises or any part thereof to any third party without obtaining prior written approval from the Landlord.",
+      "page_number": 2,
+      "preview": "Strictly residential use. Commercial operations and unauthorized subletting are prohibited.",
+      "attention_flags": [
+        {
+          "id": "flag-dead-1",
+          "type": "strict_deadline",
+          "title": "Time-Sensitive Requirement",
+          "description": "Contains tight timelines or immediate performance requirements.",
+          "severity": "warning"
+        }
+      ],
+      "obligation_count": 0
+    },
+    {
+      "id": "0940f1bd-09e1-44c2-b3af-3ac79da528d4",
+      "contract_id": "eee76876-aad8-4928-8a73-70d4c8cc2bfa",
+      "clause_number": "8",
+      "title": "Landlord Right of Inspection and Entry",
+      "text": "The Landlord or their authorized agent shall give at least 24 hours prior written notice before entering the premises for physical inspection or repair assessment. The Tenant shall permit inspection access during reasonable daylight hours between 10:00 AM and 6:00 PM following due notice, except in case of urgent emergency involving water leakage or fire.",
+      "page_number": 3,
+      "preview": "Landlord must provide 24 hours written notice before entering for daylight inspection.",
+      "attention_flags": [
+        {
+          "id": "flag-cond-1",
+          "type": "conditional_duty",
+          "title": "Conditional Duty Detected",
+          "description": "Contains 1 obligation(s) subject to preconditions or exceptions.",
+          "severity": "info"
+        }
+      ],
+      "obligation_count": 1
+    },
+    {
+      "id": "531cba78-96ff-4556-a16d-5ec3153300ee",
+      "contract_id": "eee76876-aad8-4928-8a73-70d4c8cc2bfa",
+      "clause_number": "9",
+      "title": "Alterations and Improvements",
+      "text": "The Tenant shall not carry out any structural alterations, permanent wall drillings, or repaintings without prior written consent from the Landlord. In the event of unapproved modifications, the Tenant shall restore the premises to its pristine original condition at the Tenant's sole expense prior to final vacation.",
+      "page_number": 3,
+      "preview": "Structural alterations require prior written consent. Tenant must restore unauthorized changes.",
+      "attention_flags": [
+        {
+          "id": "flag-dead-1",
+          "type": "strict_deadline",
+          "title": "Time-Sensitive Requirement",
+          "description": "Contains tight timelines or immediate performance requirements.",
+          "severity": "warning"
+        }
+      ],
+      "obligation_count": 0
+    },
+    {
+      "id": "421af754-2da3-4fcd-aa33-7b2f89eb1df9",
+      "contract_id": "eee76876-aad8-4928-8a73-70d4c8cc2bfa",
+      "clause_number": "10",
+      "title": "Termination and Notice Period",
+      "text": "Either party may terminate this agreement prior to the expiry of the lease term by providing at least 30 days prior written notice to the other party. If the Tenant vacates without serving the mandatory 30 days notice, the Landlord shall be entitled to forfeit one month's rent in lieu of notice. The Landlord may terminate with 7 days notice in the event of persistent breach of covenant.",
+      "page_number": 3,
+      "preview": "30 days prior written notice required by either party for early termination.",
+      "attention_flags": [
+        {
+          "id": "flag-cond-1",
+          "type": "conditional_duty",
+          "title": "Conditional Duty Detected",
+          "description": "Contains 1 obligation(s) subject to preconditions or exceptions.",
+          "severity": "info"
+        },
+        {
+          "id": "flag-fin-2",
+          "type": "high_financial_impact",
+          "title": "Financial Consequence or Penalty",
+          "description": "Specifies monetary penalties, late fees, or forfeiture terms upon default.",
+          "severity": "warning"
+        }
+      ],
+      "obligation_count": 2
+    },
+    {
+      "id": "4ea8a562-23f4-406f-bc72-6a7902678287",
+      "contract_id": "eee76876-aad8-4928-8a73-70d4c8cc2bfa",
+      "clause_number": "11",
+      "title": "Surrender of Premises and Key Handover",
+      "text": "The Tenant shall surrender vacant possession and return all original keys and access fobs to the Landlord by 12:00 PM on the final day of the tenancy. If the Tenant fails to vacate upon expiry or termination, the Tenant shall pay an unauthorized holding over charge of \u20b92,000 per calendar day until actual possession is delivered.",
+      "page_number": 3,
+      "preview": "Tenant must return keys by 12:00 PM on final day. Unauthorized stay incurs \u20b92,000/day charge.",
+      "attention_flags": [
+        {
+          "id": "flag-fin-1",
+          "type": "high_financial_impact",
+          "title": "Financial Consequence or Penalty",
+          "description": "Specifies monetary penalties, late fees, or forfeiture terms upon default.",
+          "severity": "warning"
+        }
+      ],
+      "obligation_count": 1
+    },
+    {
+      "id": "b81bec0c-9840-4131-a49a-844c563c7328",
+      "contract_id": "eee76876-aad8-4928-8a73-70d4c8cc2bfa",
+      "clause_number": "12",
+      "title": "Governing Law and Dispute Resolution",
+      "text": "This Agreement shall be governed and construed in accordance with the laws of India and the courts at Gurugram shall have exclusive jurisdiction. Both parties agree to attempt amicable conciliation within 15 days of written notice of any controversy prior to initiating formal arbitration proceedings under the Arbitration and Conciliation Act, 1996.",
+      "page_number": 4,
+      "preview": "Disputes subject to 15 days amicable conciliation before formal arbitration under Indian law.",
+      "attention_flags": [
+        {
+          "id": "flag-cond-1",
+          "type": "conditional_duty",
+          "title": "Conditional Duty Detected",
+          "description": "Contains 1 obligation(s) subject to preconditions or exceptions.",
+          "severity": "info"
+        }
+      ],
+      "obligation_count": 1
+    }
+  ],
+  "obligations": [
+    {
+      "id": "2047eaee-7193-4c7b-aca0-b8cf7c036039",
+      "contract_id": "eee76876-aad8-4928-8a73-70d4c8cc2bfa",
+      "clause_id": "17cfef50-1f53-4e63-bf54-83e0cc961eda",
+      "actor": "Tenant",
+      "action": "Pay monthly rent",
+      "object": "Monthly rent",
+      "amount": "\u20b920,000",
+      "frequency": "Monthly",
+      "trigger": "Beginning of each rental month",
+      "condition": null,
+      "deadline_text": "on or before the 5th day of each calendar month",
+      "normalized_deadline": "Day 5 of every month",
+      "consequence": "Late payment fee of \u20b9500 per day of delay",
+      "status": "Pending",
+      "confidence": 0.96,
+      "evidence_text": "The Tenant shall pay to the Landlord a monthly rent of \u20b920,000 on or before the 5th day of each calendar month in advance via direct electronic bank transfer.",
+      "source_page": 1,
+      "is_edited": false,
+      "edited_at": null
+    },
+    {
+      "id": "d7f03758-b8cc-4685-985f-009a55034d7b",
+      "contract_id": "eee76876-aad8-4928-8a73-70d4c8cc2bfa",
+      "clause_id": "17cfef50-1f53-4e63-bf54-83e0cc961eda",
+      "actor": "Tenant",
+      "action": "Pay late payment fee",
+      "object": "Late penalty",
+      "amount": "\u20b9500/day",
+      "frequency": "Daily upon delay",
+      "trigger": "Delayed payment beyond the 5th day",
+      "condition": "If rent remains unpaid beyond the 5th day of the month",
+      "deadline_text": "calculated from the 6th day until remitted in full",
+      "normalized_deadline": "Immediate upon breach",
+      "consequence": "Termination after 15 days default",
+      "status": "Pending",
+      "confidence": 0.92,
+      "evidence_text": "In the event of default or delayed payment, the Tenant agrees to pay a late payment fee of \u20b9500 per day of delay calculated from the 6th day of the month until the entire outstanding sum is remitted in full.",
+      "source_page": 1,
+      "is_edited": false,
+      "edited_at": null
+    },
+    {
+      "id": "ade62ce4-3e82-4a02-b47d-10ec62d5216d",
+      "contract_id": "eee76876-aad8-4928-8a73-70d4c8cc2bfa",
+      "clause_id": "99160ab7-068b-41ae-8e70-b568720fe034",
+      "actor": "Tenant",
+      "action": "Deposit security deposit",
+      "object": "Interest-free refundable deposit",
+      "amount": "\u20b960,000",
+      "frequency": "One-time",
+      "trigger": "Execution of tenancy agreement",
+      "condition": null,
+      "deadline_text": "upon execution of this agreement",
+      "normalized_deadline": "Contract signing date",
+      "consequence": "Withholding of possession",
+      "status": "Completed",
+      "confidence": 0.95,
+      "evidence_text": "The Tenant shall deposit and maintain with the Landlord an interest-free refundable security deposit of \u20b960,000 upon execution of this agreement.",
+      "source_page": 1,
+      "is_edited": false,
+      "edited_at": null
+    },
+    {
+      "id": "d549b371-bda8-4e2e-9abe-1aecf5153237",
+      "contract_id": "eee76876-aad8-4928-8a73-70d4c8cc2bfa",
+      "clause_id": "99160ab7-068b-41ae-8e70-b568720fe034",
+      "actor": "Landlord",
+      "action": "Refund security deposit",
+      "object": "Security deposit refund",
+      "amount": "\u20b960,000 (less deductions)",
+      "frequency": "One-time",
+      "trigger": "End of tenancy and peaceful surrender of premises",
+      "condition": "Subject to permitted deductions for unpaid rent, utilities, or documented damages",
+      "deadline_text": "within 30 days following the peaceful surrender of the premises",
+      "normalized_deadline": "Tenancy end date + 30 days",
+      "consequence": "Legal claim for wrongful withholding",
+      "status": "Pending",
+      "confidence": 0.93,
+      "evidence_text": "The Landlord shall refund the security deposit within 30 days following the peaceful surrender of the premises, subject to permitted deductions.",
+      "source_page": 1,
+      "is_edited": false,
+      "edited_at": null
+    },
+    {
+      "id": "cd5587e7-9aa9-4ccc-b461-de953030fc1c",
+      "contract_id": "eee76876-aad8-4928-8a73-70d4c8cc2bfa",
+      "clause_id": "562a4858-48dc-4075-88ad-a0e4985f7f38",
+      "actor": "Tenant",
+      "action": "Pay utility charges",
+      "object": "Electricity, water, gas, and internet bills",
+      "amount": "Actual billing amount",
+      "frequency": "Monthly",
+      "trigger": "Receipt of respective utility invoice",
+      "condition": null,
+      "deadline_text": "within 7 days of receiving the respective bill",
+      "normalized_deadline": "Bill receipt + 7 days",
+      "consequence": "Utility disconnection and recovery by Landlord",
+      "status": "Pending",
+      "confidence": 0.94,
+      "evidence_text": "The Tenant shall promptly pay all charges for electricity, water, cooking gas, and high-speed internet consumed within 7 days of receiving the respective bill.",
+      "source_page": 2,
+      "is_edited": false,
+      "edited_at": null
+    },
+    {
+      "id": "86428726-80c1-499f-94d2-8ff29012a493",
+      "contract_id": "eee76876-aad8-4928-8a73-70d4c8cc2bfa",
+      "clause_id": "562a4858-48dc-4075-88ad-a0e4985f7f38",
+      "actor": "Tenant",
+      "action": "Furnish utility receipts",
+      "object": "Copies of paid utility receipts",
+      "amount": null,
+      "frequency": "Monthly",
+      "trigger": "Landlord request",
+      "condition": "Upon request by the Landlord",
+      "deadline_text": "no later than the 10th of each calendar month",
+      "normalized_deadline": "Day 10 of each month",
+      "consequence": "Default presumption",
+      "status": "Pending",
+      "confidence": 0.88,
+      "evidence_text": "The Tenant shall furnish copies of paid utility receipts to the Landlord upon request no later than the 10th of each calendar month.",
+      "source_page": 2,
+      "is_edited": false,
+      "edited_at": null
+    },
+    {
+      "id": "cad11e6d-4a08-40ae-9467-71ec6f019130",
+      "contract_id": "eee76876-aad8-4928-8a73-70d4c8cc2bfa",
+      "clause_id": "1a26b474-af98-441e-8d70-944a117aa886",
+      "actor": "Landlord",
+      "action": "Complete major structural repairs",
+      "object": "Major structural and plumbing repairs",
+      "amount": null,
+      "frequency": "As needed",
+      "trigger": "Tenant reports qualifying maintenance issue in writing",
+      "condition": "Provided damage is not caused by willful negligence of Tenant",
+      "deadline_text": "within 7 days of written notification from the Tenant",
+      "normalized_deadline": "Notice date + 7 days",
+      "consequence": "Tenant right to repair and offset from subsequent rent",
+      "status": "Pending",
+      "confidence": 0.92,
+      "evidence_text": "The Landlord shall complete necessary major structural and plumbing repairs within 7 days of written notification from the Tenant, provided such damage is not caused by the willful negligence or misuse of the Tenant.",
+      "source_page": 2,
+      "is_edited": false,
+      "edited_at": null
+    },
+    {
+      "id": "cbe267d7-385d-475e-8ef7-57eae7a3776b",
+      "contract_id": "eee76876-aad8-4928-8a73-70d4c8cc2bfa",
+      "clause_id": "1a26b474-af98-441e-8d70-944a117aa886",
+      "actor": "Tenant",
+      "action": "Maintain minor fixtures and cleanliness",
+      "object": "Fuses, light bulbs, tap washers, and fittings",
+      "amount": null,
+      "frequency": "Ongoing",
+      "trigger": "Occupancy",
+      "condition": null,
+      "deadline_text": "throughout the subsistence of the tenancy",
+      "normalized_deadline": "Continuous lease term",
+      "consequence": "Deduction from security deposit",
+      "status": "Pending",
+      "confidence": 0.89,
+      "evidence_text": "The Tenant is responsible for day-to-day cleanliness, waste disposal, and minor repairs of fuses, light bulbs, tap washers, and fittings at their own expense throughout the subsistence of the tenancy.",
+      "source_page": 2,
+      "is_edited": false,
+      "edited_at": null
+    },
+    {
+      "id": "84729432-6ef1-4991-832a-47ecf1effc7f",
+      "contract_id": "eee76876-aad8-4928-8a73-70d4c8cc2bfa",
+      "clause_id": "0940f1bd-09e1-44c2-b3af-3ac79da528d4",
+      "actor": "Landlord",
+      "action": "Give advance inspection notice",
+      "object": "Prior written inspection notice",
+      "amount": null,
+      "frequency": "Per inspection",
+      "trigger": "Intent to inspect premises",
+      "condition": "Except in urgent emergency involving water leakage or fire",
+      "deadline_text": "at least 24 hours prior written notice",
+      "normalized_deadline": "Inspection time - 24 hours",
+      "consequence": "Tenant refusal permitted",
+      "status": "Pending",
+      "confidence": 0.91,
+      "evidence_text": "The Landlord or their authorized agent shall give at least 24 hours prior written notice before entering the premises for physical inspection or repair assessment.",
+      "source_page": 3,
+      "is_edited": false,
+      "edited_at": null
+    },
+    {
+      "id": "f1ec8c00-2916-4932-a2d5-61588cce0ba2",
+      "contract_id": "eee76876-aad8-4928-8a73-70d4c8cc2bfa",
+      "clause_id": "421af754-2da3-4fcd-aa33-7b2f89eb1df9",
+      "actor": "Tenant",
+      "action": "Provide termination notice",
+      "object": "Prior written termination notice",
+      "amount": null,
+      "frequency": "One-time",
+      "trigger": "Intention to terminate agreement prior to natural expiry",
+      "condition": null,
+      "deadline_text": "at least 30 days prior written notice",
+      "normalized_deadline": "Termination date - 30 days",
+      "consequence": "Forfeiture of one month's rent in lieu of notice",
+      "status": "Pending",
+      "confidence": 0.94,
+      "evidence_text": "Either party may terminate this agreement prior to the expiry of the lease term by providing at least 30 days prior written notice to the other party.",
+      "source_page": 3,
+      "is_edited": false,
+      "edited_at": null
+    },
+    {
+      "id": "d66187f8-a1df-45ff-916d-669a82e48bdb",
+      "contract_id": "eee76876-aad8-4928-8a73-70d4c8cc2bfa",
+      "clause_id": "421af754-2da3-4fcd-aa33-7b2f89eb1df9",
+      "actor": "Landlord",
+      "action": "Provide termination notice",
+      "object": "Prior written termination notice",
+      "amount": null,
+      "frequency": "One-time",
+      "trigger": "Intention to terminate agreement or persistent covenant breach",
+      "condition": "7 days in event of persistent covenant breach",
+      "deadline_text": "at least 30 days written notice",
+      "normalized_deadline": "Termination date - 30 days",
+      "consequence": "Invalid termination",
+      "status": "Pending",
+      "confidence": 0.91,
+      "evidence_text": "The Landlord may terminate with 7 days notice in the event of persistent breach of covenant or at least 30 days written notice.",
+      "source_page": 3,
+      "is_edited": false,
+      "edited_at": null
+    },
+    {
+      "id": "72e4128b-61b4-4a24-bf4a-b821f0ced842",
+      "contract_id": "eee76876-aad8-4928-8a73-70d4c8cc2bfa",
+      "clause_id": "4ea8a562-23f4-406f-bc72-6a7902678287",
+      "actor": "Tenant",
+      "action": "Surrender keys and vacant possession",
+      "object": "Keys, access fobs, and vacant possession",
+      "amount": null,
+      "frequency": "One-time",
+      "trigger": "Final day of tenancy",
+      "condition": null,
+      "deadline_text": "by 12:00 PM on the final day of the tenancy",
+      "normalized_deadline": "Final day 12:00 PM",
+      "consequence": "Holding over charge of \u20b92,000 per calendar day",
+      "status": "Pending",
+      "confidence": 0.95,
+      "evidence_text": "The Tenant shall surrender vacant possession and return all original keys and access fobs to the Landlord by 12:00 PM on the final day of the tenancy.",
+      "source_page": 3,
+      "is_edited": false,
+      "edited_at": null
+    },
+    {
+      "id": "cc37c228-6f04-4d01-9b33-61bead30b226",
+      "contract_id": "eee76876-aad8-4928-8a73-70d4c8cc2bfa",
+      "clause_id": "b81bec0c-9840-4131-a49a-844c563c7328",
+      "actor": "Either party",
+      "action": "Attempt amicable conciliation",
+      "object": "Conciliation and dispute negotiation",
+      "amount": null,
+      "frequency": "Upon dispute",
+      "trigger": "Any controversy or claim arising under this agreement",
+      "condition": "Prior to initiating formal arbitration",
+      "deadline_text": "within 15 days of written notice of any controversy",
+      "normalized_deadline": "Dispute notice + 15 days",
+      "consequence": "Referral to formal arbitration",
+      "status": "Pending",
+      "confidence": 0.88,
+      "evidence_text": "Both parties agree to attempt amicable conciliation within 15 days of written notice of any controversy prior to initiating formal arbitration proceedings.",
+      "source_page": 4,
+      "is_edited": false,
+      "edited_at": null
+    }
+  ],
+  "graph": {
+    "contract_id": "eee76876-aad8-4928-8a73-70d4c8cc2bfa",
+    "nodes": [
+      {
+        "id": "party-tenant",
+        "type": "party",
+        "label": "Ms. Priya Verma",
+        "data": {
+          "name": "Ms. Priya Verma",
+          "role": "Tenant",
+          "badge": "Party"
+        }
+      },
+      {
+        "id": "party-landlord",
+        "type": "party",
+        "label": "Mr. Rajesh Sharma",
+        "data": {
+          "name": "Mr. Rajesh Sharma",
+          "role": "Landlord",
+          "badge": "Party"
+        }
+      },
+      {
+        "id": "clause-3",
+        "type": "clause",
+        "label": "Clause 3: Monthly Rent and Late Fees",
+        "data": {
+          "clause_number": "3",
+          "title": "Monthly Rent and Late Fees",
+          "page_number": 1,
+          "preview": "Tenant must pay \u20b920,000 monthly rent on or before the 5th. Late fee of \u20b9500/day applies upon delay.",
+          "badge": "Clause"
+        }
+      },
+      {
+        "id": "obl-2047eaee",
+        "type": "obligation",
+        "label": "Pay monthly rent (\u20b920,000)",
+        "data": {
+          "id": "2047eaee-7193-4c7b-aca0-b8cf7c036039",
+          "actor": "Tenant",
+          "action": "Pay monthly rent",
+          "amount": "\u20b920,000",
+          "frequency": "Monthly",
+          "status": "Pending",
+          "confidence": 0.96,
+          "evidence": "The Tenant shall pay to the Landlord a monthly rent of \u20b920,000 on or before the 5th day of each calendar month in advance via direct electronic bank transfer.",
+          "source_page": 1,
+          "badge": "Obligation"
+        }
+      },
+      {
+        "id": "trigger-2047eaee",
+        "type": "trigger",
+        "label": "Trigger: Beginning of each rental month",
+        "data": {
+          "trigger": "Beginning of each rental month",
+          "badge": "Trigger"
+        }
+      },
+      {
+        "id": "deadline-2047eaee",
+        "type": "deadline",
+        "label": "Deadline: Day 5 of every month",
+        "data": {
+          "deadline": "Day 5 of every month",
+          "raw_deadline": "on or before the 5th day of each calendar month",
+          "badge": "Deadline"
+        }
+      },
+      {
+        "id": "conseq-2047eaee",
+        "type": "consequence",
+        "label": "Consequence: Late payment fee of \u20b9500 per day of dela...",
+        "data": {
+          "consequence": "Late payment fee of \u20b9500 per day of delay",
+          "badge": "Consequence"
+        }
+      },
+      {
+        "id": "obl-d7f03758",
+        "type": "obligation",
+        "label": "Pay late payment fee (\u20b9500/day)",
+        "data": {
+          "id": "d7f03758-b8cc-4685-985f-009a55034d7b",
+          "actor": "Tenant",
+          "action": "Pay late payment fee",
+          "amount": "\u20b9500/day",
+          "frequency": "Daily upon delay",
+          "status": "Pending",
+          "confidence": 0.92,
+          "evidence": "In the event of default or delayed payment, the Tenant agrees to pay a late payment fee of \u20b9500 per day of delay calculated from the 6th day of the month until the entire outstanding sum is remitted in full.",
+          "source_page": 1,
+          "badge": "Obligation"
+        }
+      },
+      {
+        "id": "trigger-d7f03758",
+        "type": "trigger",
+        "label": "Trigger: Delayed payment beyond the 5th day",
+        "data": {
+          "trigger": "Delayed payment beyond the 5th day",
+          "badge": "Trigger"
+        }
+      },
+      {
+        "id": "deadline-d7f03758",
+        "type": "deadline",
+        "label": "Deadline: Immediate upon breach",
+        "data": {
+          "deadline": "Immediate upon breach",
+          "raw_deadline": "calculated from the 6th day until remitted in full",
+          "badge": "Deadline"
+        }
+      },
+      {
+        "id": "cond-d7f03758",
+        "type": "condition",
+        "label": "Condition: If rent remains unpaid beyond the 5th da...",
+        "data": {
+          "condition": "If rent remains unpaid beyond the 5th day of the month",
+          "badge": "Condition"
+        }
+      },
+      {
+        "id": "conseq-d7f03758",
+        "type": "consequence",
+        "label": "Consequence: Termination after 15 days default...",
+        "data": {
+          "consequence": "Termination after 15 days default",
+          "badge": "Consequence"
+        }
+      },
+      {
+        "id": "clause-4",
+        "type": "clause",
+        "label": "Clause 4: Security Deposit and Refund",
+        "data": {
+          "clause_number": "4",
+          "title": "Security Deposit and Refund",
+          "page_number": 1,
+          "preview": "Security deposit of \u20b960,000 to be refunded within 30 days post-tenancy subject to deductions.",
+          "badge": "Clause"
+        }
+      },
+      {
+        "id": "obl-ade62ce4",
+        "type": "obligation",
+        "label": "Deposit security deposit (\u20b960,000)",
+        "data": {
+          "id": "ade62ce4-3e82-4a02-b47d-10ec62d5216d",
+          "actor": "Tenant",
+          "action": "Deposit security deposit",
+          "amount": "\u20b960,000",
+          "frequency": "One-time",
+          "status": "Completed",
+          "confidence": 0.95,
+          "evidence": "The Tenant shall deposit and maintain with the Landlord an interest-free refundable security deposit of \u20b960,000 upon execution of this agreement.",
+          "source_page": 1,
+          "badge": "Obligation"
+        }
+      },
+      {
+        "id": "trigger-ade62ce4",
+        "type": "trigger",
+        "label": "Trigger: Execution of tenancy agreement",
+        "data": {
+          "trigger": "Execution of tenancy agreement",
+          "badge": "Trigger"
+        }
+      },
+      {
+        "id": "deadline-ade62ce4",
+        "type": "deadline",
+        "label": "Deadline: Contract signing date",
+        "data": {
+          "deadline": "Contract signing date",
+          "raw_deadline": "upon execution of this agreement",
+          "badge": "Deadline"
+        }
+      },
+      {
+        "id": "conseq-ade62ce4",
+        "type": "consequence",
+        "label": "Consequence: Withholding of possession...",
+        "data": {
+          "consequence": "Withholding of possession",
+          "badge": "Consequence"
+        }
+      },
+      {
+        "id": "obl-d549b371",
+        "type": "obligation",
+        "label": "Refund security deposit (\u20b960,000 (less deductions))",
+        "data": {
+          "id": "d549b371-bda8-4e2e-9abe-1aecf5153237",
+          "actor": "Landlord",
+          "action": "Refund security deposit",
+          "amount": "\u20b960,000 (less deductions)",
+          "frequency": "One-time",
+          "status": "Pending",
+          "confidence": 0.93,
+          "evidence": "The Landlord shall refund the security deposit within 30 days following the peaceful surrender of the premises, subject to permitted deductions.",
+          "source_page": 1,
+          "badge": "Obligation"
+        }
+      },
+      {
+        "id": "trigger-d549b371",
+        "type": "trigger",
+        "label": "Trigger: End of tenancy and peaceful surrender of premises",
+        "data": {
+          "trigger": "End of tenancy and peaceful surrender of premises",
+          "badge": "Trigger"
+        }
+      },
+      {
+        "id": "deadline-d549b371",
+        "type": "deadline",
+        "label": "Deadline: Tenancy end date + 30 days",
+        "data": {
+          "deadline": "Tenancy end date + 30 days",
+          "raw_deadline": "within 30 days following the peaceful surrender of the premises",
+          "badge": "Deadline"
+        }
+      },
+      {
+        "id": "cond-d549b371",
+        "type": "condition",
+        "label": "Condition: Subject to permitted deductions for unpa...",
+        "data": {
+          "condition": "Subject to permitted deductions for unpaid rent, utilities, or documented damages",
+          "badge": "Condition"
+        }
+      },
+      {
+        "id": "conseq-d549b371",
+        "type": "consequence",
+        "label": "Consequence: Legal claim for wrongful withholding...",
+        "data": {
+          "consequence": "Legal claim for wrongful withholding",
+          "badge": "Consequence"
+        }
+      },
+      {
+        "id": "clause-5",
+        "type": "clause",
+        "label": "Clause 5: Utility Bills and Municipal Outgoings",
+        "data": {
+          "clause_number": "5",
+          "title": "Utility Bills and Municipal Outgoings",
+          "page_number": 2,
+          "preview": "Tenant pays utility charges within 7 days of invoice and furnishes receipts on request.",
+          "badge": "Clause"
+        }
+      },
+      {
+        "id": "obl-cd5587e7",
+        "type": "obligation",
+        "label": "Pay utility charges (Actual billing amount)",
+        "data": {
+          "id": "cd5587e7-9aa9-4ccc-b461-de953030fc1c",
+          "actor": "Tenant",
+          "action": "Pay utility charges",
+          "amount": "Actual billing amount",
+          "frequency": "Monthly",
+          "status": "Pending",
+          "confidence": 0.94,
+          "evidence": "The Tenant shall promptly pay all charges for electricity, water, cooking gas, and high-speed internet consumed within 7 days of receiving the respective bill.",
+          "source_page": 2,
+          "badge": "Obligation"
+        }
+      },
+      {
+        "id": "trigger-cd5587e7",
+        "type": "trigger",
+        "label": "Trigger: Receipt of respective utility invoice",
+        "data": {
+          "trigger": "Receipt of respective utility invoice",
+          "badge": "Trigger"
+        }
+      },
+      {
+        "id": "deadline-cd5587e7",
+        "type": "deadline",
+        "label": "Deadline: Bill receipt + 7 days",
+        "data": {
+          "deadline": "Bill receipt + 7 days",
+          "raw_deadline": "within 7 days of receiving the respective bill",
+          "badge": "Deadline"
+        }
+      },
+      {
+        "id": "conseq-cd5587e7",
+        "type": "consequence",
+        "label": "Consequence: Utility disconnection and recovery by La...",
+        "data": {
+          "consequence": "Utility disconnection and recovery by Landlord",
+          "badge": "Consequence"
+        }
+      },
+      {
+        "id": "obl-86428726",
+        "type": "obligation",
+        "label": "Furnish utility receipts",
+        "data": {
+          "id": "86428726-80c1-499f-94d2-8ff29012a493",
+          "actor": "Tenant",
+          "action": "Furnish utility receipts",
+          "amount": null,
+          "frequency": "Monthly",
+          "status": "Pending",
+          "confidence": 0.88,
+          "evidence": "The Tenant shall furnish copies of paid utility receipts to the Landlord upon request no later than the 10th of each calendar month.",
+          "source_page": 2,
+          "badge": "Obligation"
+        }
+      },
+      {
+        "id": "trigger-86428726",
+        "type": "trigger",
+        "label": "Trigger: Landlord request",
+        "data": {
+          "trigger": "Landlord request",
+          "badge": "Trigger"
+        }
+      },
+      {
+        "id": "deadline-86428726",
+        "type": "deadline",
+        "label": "Deadline: Day 10 of each month",
+        "data": {
+          "deadline": "Day 10 of each month",
+          "raw_deadline": "no later than the 10th of each calendar month",
+          "badge": "Deadline"
+        }
+      },
+      {
+        "id": "cond-86428726",
+        "type": "condition",
+        "label": "Condition: Upon request by the Landlord...",
+        "data": {
+          "condition": "Upon request by the Landlord",
+          "badge": "Condition"
+        }
+      },
+      {
+        "id": "conseq-86428726",
+        "type": "consequence",
+        "label": "Consequence: Default presumption...",
+        "data": {
+          "consequence": "Default presumption",
+          "badge": "Consequence"
+        }
+      },
+      {
+        "id": "clause-6",
+        "type": "clause",
+        "label": "Clause 6: Maintenance and Structural Repairs",
+        "data": {
+          "clause_number": "6",
+          "title": "Maintenance and Structural Repairs",
+          "page_number": 2,
+          "preview": "Landlord completes structural repairs within 7 days. Tenant handles day-to-day minor repairs.",
+          "badge": "Clause"
+        }
+      },
+      {
+        "id": "obl-cad11e6d",
+        "type": "obligation",
+        "label": "Complete major structural repairs",
+        "data": {
+          "id": "cad11e6d-4a08-40ae-9467-71ec6f019130",
+          "actor": "Landlord",
+          "action": "Complete major structural repairs",
+          "amount": null,
+          "frequency": "As needed",
+          "status": "Pending",
+          "confidence": 0.92,
+          "evidence": "The Landlord shall complete necessary major structural and plumbing repairs within 7 days of written notification from the Tenant, provided such damage is not caused by the willful negligence or misuse of the Tenant.",
+          "source_page": 2,
+          "badge": "Obligation"
+        }
+      },
+      {
+        "id": "trigger-cad11e6d",
+        "type": "trigger",
+        "label": "Trigger: Tenant reports qualifying maintenance issue in writing",
+        "data": {
+          "trigger": "Tenant reports qualifying maintenance issue in writing",
+          "badge": "Trigger"
+        }
+      },
+      {
+        "id": "deadline-cad11e6d",
+        "type": "deadline",
+        "label": "Deadline: Notice date + 7 days",
+        "data": {
+          "deadline": "Notice date + 7 days",
+          "raw_deadline": "within 7 days of written notification from the Tenant",
+          "badge": "Deadline"
+        }
+      },
+      {
+        "id": "cond-cad11e6d",
+        "type": "condition",
+        "label": "Condition: Provided damage is not caused by willful...",
+        "data": {
+          "condition": "Provided damage is not caused by willful negligence of Tenant",
+          "badge": "Condition"
+        }
+      },
+      {
+        "id": "conseq-cad11e6d",
+        "type": "consequence",
+        "label": "Consequence: Tenant right to repair and offset from s...",
+        "data": {
+          "consequence": "Tenant right to repair and offset from subsequent rent",
+          "badge": "Consequence"
+        }
+      },
+      {
+        "id": "obl-cbe267d7",
+        "type": "obligation",
+        "label": "Maintain minor fixtures and cleanliness",
+        "data": {
+          "id": "cbe267d7-385d-475e-8ef7-57eae7a3776b",
+          "actor": "Tenant",
+          "action": "Maintain minor fixtures and cleanliness",
+          "amount": null,
+          "frequency": "Ongoing",
+          "status": "Pending",
+          "confidence": 0.89,
+          "evidence": "The Tenant is responsible for day-to-day cleanliness, waste disposal, and minor repairs of fuses, light bulbs, tap washers, and fittings at their own expense throughout the subsistence of the tenancy.",
+          "source_page": 2,
+          "badge": "Obligation"
+        }
+      },
+      {
+        "id": "trigger-cbe267d7",
+        "type": "trigger",
+        "label": "Trigger: Occupancy",
+        "data": {
+          "trigger": "Occupancy",
+          "badge": "Trigger"
+        }
+      },
+      {
+        "id": "deadline-cbe267d7",
+        "type": "deadline",
+        "label": "Deadline: Continuous lease term",
+        "data": {
+          "deadline": "Continuous lease term",
+          "raw_deadline": "throughout the subsistence of the tenancy",
+          "badge": "Deadline"
+        }
+      },
+      {
+        "id": "conseq-cbe267d7",
+        "type": "consequence",
+        "label": "Consequence: Deduction from security deposit...",
+        "data": {
+          "consequence": "Deduction from security deposit",
+          "badge": "Consequence"
+        }
+      },
+      {
+        "id": "clause-8",
+        "type": "clause",
+        "label": "Clause 8: Landlord Right of Inspection and Entry",
+        "data": {
+          "clause_number": "8",
+          "title": "Landlord Right of Inspection and Entry",
+          "page_number": 3,
+          "preview": "Landlord must provide 24 hours written notice before entering for daylight inspection.",
+          "badge": "Clause"
+        }
+      },
+      {
+        "id": "obl-84729432",
+        "type": "obligation",
+        "label": "Give advance inspection notice",
+        "data": {
+          "id": "84729432-6ef1-4991-832a-47ecf1effc7f",
+          "actor": "Landlord",
+          "action": "Give advance inspection notice",
+          "amount": null,
+          "frequency": "Per inspection",
+          "status": "Pending",
+          "confidence": 0.91,
+          "evidence": "The Landlord or their authorized agent shall give at least 24 hours prior written notice before entering the premises for physical inspection or repair assessment.",
+          "source_page": 3,
+          "badge": "Obligation"
+        }
+      },
+      {
+        "id": "trigger-84729432",
+        "type": "trigger",
+        "label": "Trigger: Intent to inspect premises",
+        "data": {
+          "trigger": "Intent to inspect premises",
+          "badge": "Trigger"
+        }
+      },
+      {
+        "id": "deadline-84729432",
+        "type": "deadline",
+        "label": "Deadline: Inspection time - 24 hours",
+        "data": {
+          "deadline": "Inspection time - 24 hours",
+          "raw_deadline": "at least 24 hours prior written notice",
+          "badge": "Deadline"
+        }
+      },
+      {
+        "id": "cond-84729432",
+        "type": "condition",
+        "label": "Condition: Except in urgent emergency involving wat...",
+        "data": {
+          "condition": "Except in urgent emergency involving water leakage or fire",
+          "badge": "Condition"
+        }
+      },
+      {
+        "id": "conseq-84729432",
+        "type": "consequence",
+        "label": "Consequence: Tenant refusal permitted...",
+        "data": {
+          "consequence": "Tenant refusal permitted",
+          "badge": "Consequence"
+        }
+      },
+      {
+        "id": "clause-10",
+        "type": "clause",
+        "label": "Clause 10: Termination and Notice Period",
+        "data": {
+          "clause_number": "10",
+          "title": "Termination and Notice Period",
+          "page_number": 3,
+          "preview": "30 days prior written notice required by either party for early termination.",
+          "badge": "Clause"
+        }
+      },
+      {
+        "id": "obl-f1ec8c00",
+        "type": "obligation",
+        "label": "Provide termination notice",
+        "data": {
+          "id": "f1ec8c00-2916-4932-a2d5-61588cce0ba2",
+          "actor": "Tenant",
+          "action": "Provide termination notice",
+          "amount": null,
+          "frequency": "One-time",
+          "status": "Pending",
+          "confidence": 0.94,
+          "evidence": "Either party may terminate this agreement prior to the expiry of the lease term by providing at least 30 days prior written notice to the other party.",
+          "source_page": 3,
+          "badge": "Obligation"
+        }
+      },
+      {
+        "id": "trigger-f1ec8c00",
+        "type": "trigger",
+        "label": "Trigger: Intention to terminate agreement prior to natural expiry",
+        "data": {
+          "trigger": "Intention to terminate agreement prior to natural expiry",
+          "badge": "Trigger"
+        }
+      },
+      {
+        "id": "deadline-f1ec8c00",
+        "type": "deadline",
+        "label": "Deadline: Termination date - 30 days",
+        "data": {
+          "deadline": "Termination date - 30 days",
+          "raw_deadline": "at least 30 days prior written notice",
+          "badge": "Deadline"
+        }
+      },
+      {
+        "id": "conseq-f1ec8c00",
+        "type": "consequence",
+        "label": "Consequence: Forfeiture of one month's rent in lieu o...",
+        "data": {
+          "consequence": "Forfeiture of one month's rent in lieu of notice",
+          "badge": "Consequence"
+        }
+      },
+      {
+        "id": "obl-d66187f8",
+        "type": "obligation",
+        "label": "Provide termination notice",
+        "data": {
+          "id": "d66187f8-a1df-45ff-916d-669a82e48bdb",
+          "actor": "Landlord",
+          "action": "Provide termination notice",
+          "amount": null,
+          "frequency": "One-time",
+          "status": "Pending",
+          "confidence": 0.91,
+          "evidence": "The Landlord may terminate with 7 days notice in the event of persistent breach of covenant or at least 30 days written notice.",
+          "source_page": 3,
+          "badge": "Obligation"
+        }
+      },
+      {
+        "id": "trigger-d66187f8",
+        "type": "trigger",
+        "label": "Trigger: Intention to terminate agreement or persistent covenant breach",
+        "data": {
+          "trigger": "Intention to terminate agreement or persistent covenant breach",
+          "badge": "Trigger"
+        }
+      },
+      {
+        "id": "deadline-d66187f8",
+        "type": "deadline",
+        "label": "Deadline: Termination date - 30 days",
+        "data": {
+          "deadline": "Termination date - 30 days",
+          "raw_deadline": "at least 30 days written notice",
+          "badge": "Deadline"
+        }
+      },
+      {
+        "id": "cond-d66187f8",
+        "type": "condition",
+        "label": "Condition: 7 days in event of persistent covenant b...",
+        "data": {
+          "condition": "7 days in event of persistent covenant breach",
+          "badge": "Condition"
+        }
+      },
+      {
+        "id": "conseq-d66187f8",
+        "type": "consequence",
+        "label": "Consequence: Invalid termination...",
+        "data": {
+          "consequence": "Invalid termination",
+          "badge": "Consequence"
+        }
+      },
+      {
+        "id": "clause-11",
+        "type": "clause",
+        "label": "Clause 11: Surrender of Premises and Key Handover",
+        "data": {
+          "clause_number": "11",
+          "title": "Surrender of Premises and Key Handover",
+          "page_number": 3,
+          "preview": "Tenant must return keys by 12:00 PM on final day. Unauthorized stay incurs \u20b92,000/day charge.",
+          "badge": "Clause"
+        }
+      },
+      {
+        "id": "obl-72e4128b",
+        "type": "obligation",
+        "label": "Surrender keys and vacant possession",
+        "data": {
+          "id": "72e4128b-61b4-4a24-bf4a-b821f0ced842",
+          "actor": "Tenant",
+          "action": "Surrender keys and vacant possession",
+          "amount": null,
+          "frequency": "One-time",
+          "status": "Pending",
+          "confidence": 0.95,
+          "evidence": "The Tenant shall surrender vacant possession and return all original keys and access fobs to the Landlord by 12:00 PM on the final day of the tenancy.",
+          "source_page": 3,
+          "badge": "Obligation"
+        }
+      },
+      {
+        "id": "trigger-72e4128b",
+        "type": "trigger",
+        "label": "Trigger: Final day of tenancy",
+        "data": {
+          "trigger": "Final day of tenancy",
+          "badge": "Trigger"
+        }
+      },
+      {
+        "id": "deadline-72e4128b",
+        "type": "deadline",
+        "label": "Deadline: Final day 12:00 PM",
+        "data": {
+          "deadline": "Final day 12:00 PM",
+          "raw_deadline": "by 12:00 PM on the final day of the tenancy",
+          "badge": "Deadline"
+        }
+      },
+      {
+        "id": "conseq-72e4128b",
+        "type": "consequence",
+        "label": "Consequence: Holding over charge of \u20b92,000 per calend...",
+        "data": {
+          "consequence": "Holding over charge of \u20b92,000 per calendar day",
+          "badge": "Consequence"
+        }
+      },
+      {
+        "id": "clause-12",
+        "type": "clause",
+        "label": "Clause 12: Governing Law and Dispute Resolution",
+        "data": {
+          "clause_number": "12",
+          "title": "Governing Law and Dispute Resolution",
+          "page_number": 4,
+          "preview": "Disputes subject to 15 days amicable conciliation before formal arbitration under Indian law.",
+          "badge": "Clause"
+        }
+      },
+      {
+        "id": "party-either-party",
+        "type": "party",
+        "label": "Either party",
+        "data": {
+          "name": "Either party",
+          "role": "Either party",
+          "badge": "Party"
+        }
+      },
+      {
+        "id": "obl-cc37c228",
+        "type": "obligation",
+        "label": "Attempt amicable conciliation",
+        "data": {
+          "id": "cc37c228-6f04-4d01-9b33-61bead30b226",
+          "actor": "Either party",
+          "action": "Attempt amicable conciliation",
+          "amount": null,
+          "frequency": "Upon dispute",
+          "status": "Pending",
+          "confidence": 0.88,
+          "evidence": "Both parties agree to attempt amicable conciliation within 15 days of written notice of any controversy prior to initiating formal arbitration proceedings.",
+          "source_page": 4,
+          "badge": "Obligation"
+        }
+      },
+      {
+        "id": "trigger-cc37c228",
+        "type": "trigger",
+        "label": "Trigger: Any controversy or claim arising under this agreement",
+        "data": {
+          "trigger": "Any controversy or claim arising under this agreement",
+          "badge": "Trigger"
+        }
+      },
+      {
+        "id": "deadline-cc37c228",
+        "type": "deadline",
+        "label": "Deadline: Dispute notice + 15 days",
+        "data": {
+          "deadline": "Dispute notice + 15 days",
+          "raw_deadline": "within 15 days of written notice of any controversy",
+          "badge": "Deadline"
+        }
+      },
+      {
+        "id": "cond-cc37c228",
+        "type": "condition",
+        "label": "Condition: Prior to initiating formal arbitration...",
+        "data": {
+          "condition": "Prior to initiating formal arbitration",
+          "badge": "Condition"
+        }
+      },
+      {
+        "id": "conseq-cc37c228",
+        "type": "consequence",
+        "label": "Consequence: Referral to formal arbitration...",
+        "data": {
+          "consequence": "Referral to formal arbitration",
+          "badge": "Consequence"
+        }
+      }
+    ],
+    "edges": [
+      {
+        "id": "edge-clause-3-party-tenant",
+        "source": "clause-3",
+        "target": "party-tenant",
+        "label": "governs",
+        "animated": false
+      },
+      {
+        "id": "edge-party-tenant-obl-2047eaee",
+        "source": "party-tenant",
+        "target": "obl-2047eaee",
+        "label": "binds",
+        "animated": true
+      },
+      {
+        "id": "edge-trigger-2047eaee-obl-2047eaee",
+        "source": "trigger-2047eaee",
+        "target": "obl-2047eaee",
+        "label": "initiates",
+        "animated": true
+      },
+      {
+        "id": "edge-obl-2047eaee-deadline-2047eaee",
+        "source": "obl-2047eaee",
+        "target": "deadline-2047eaee",
+        "label": "due by",
+        "animated": false
+      },
+      {
+        "id": "edge-obl-2047eaee-conseq-2047eaee",
+        "source": "obl-2047eaee",
+        "target": "conseq-2047eaee",
+        "label": "penalty / default",
+        "animated": true
+      },
+      {
+        "id": "edge-party-tenant-obl-d7f03758",
+        "source": "party-tenant",
+        "target": "obl-d7f03758",
+        "label": "binds",
+        "animated": true
+      },
+      {
+        "id": "edge-trigger-d7f03758-obl-d7f03758",
+        "source": "trigger-d7f03758",
+        "target": "obl-d7f03758",
+        "label": "initiates",
+        "animated": true
+      },
+      {
+        "id": "edge-obl-d7f03758-deadline-d7f03758",
+        "source": "obl-d7f03758",
+        "target": "deadline-d7f03758",
+        "label": "due by",
+        "animated": false
+      },
+      {
+        "id": "edge-obl-d7f03758-cond-d7f03758",
+        "source": "obl-d7f03758",
+        "target": "cond-d7f03758",
+        "label": "conditioned on",
+        "animated": false
+      },
+      {
+        "id": "edge-obl-d7f03758-conseq-d7f03758",
+        "source": "obl-d7f03758",
+        "target": "conseq-d7f03758",
+        "label": "penalty / default",
+        "animated": true
+      },
+      {
+        "id": "edge-clause-4-party-tenant",
+        "source": "clause-4",
+        "target": "party-tenant",
+        "label": "governs",
+        "animated": false
+      },
+      {
+        "id": "edge-party-tenant-obl-ade62ce4",
+        "source": "party-tenant",
+        "target": "obl-ade62ce4",
+        "label": "binds",
+        "animated": true
+      },
+      {
+        "id": "edge-trigger-ade62ce4-obl-ade62ce4",
+        "source": "trigger-ade62ce4",
+        "target": "obl-ade62ce4",
+        "label": "initiates",
+        "animated": true
+      },
+      {
+        "id": "edge-obl-ade62ce4-deadline-ade62ce4",
+        "source": "obl-ade62ce4",
+        "target": "deadline-ade62ce4",
+        "label": "due by",
+        "animated": false
+      },
+      {
+        "id": "edge-obl-ade62ce4-conseq-ade62ce4",
+        "source": "obl-ade62ce4",
+        "target": "conseq-ade62ce4",
+        "label": "penalty / default",
+        "animated": true
+      },
+      {
+        "id": "edge-clause-4-party-landlord",
+        "source": "clause-4",
+        "target": "party-landlord",
+        "label": "governs",
+        "animated": false
+      },
+      {
+        "id": "edge-party-landlord-obl-d549b371",
+        "source": "party-landlord",
+        "target": "obl-d549b371",
+        "label": "binds",
+        "animated": true
+      },
+      {
+        "id": "edge-trigger-d549b371-obl-d549b371",
+        "source": "trigger-d549b371",
+        "target": "obl-d549b371",
+        "label": "initiates",
+        "animated": true
+      },
+      {
+        "id": "edge-obl-d549b371-deadline-d549b371",
+        "source": "obl-d549b371",
+        "target": "deadline-d549b371",
+        "label": "due by",
+        "animated": false
+      },
+      {
+        "id": "edge-obl-d549b371-cond-d549b371",
+        "source": "obl-d549b371",
+        "target": "cond-d549b371",
+        "label": "conditioned on",
+        "animated": false
+      },
+      {
+        "id": "edge-obl-d549b371-conseq-d549b371",
+        "source": "obl-d549b371",
+        "target": "conseq-d549b371",
+        "label": "penalty / default",
+        "animated": true
+      },
+      {
+        "id": "edge-clause-5-party-tenant",
+        "source": "clause-5",
+        "target": "party-tenant",
+        "label": "governs",
+        "animated": false
+      },
+      {
+        "id": "edge-party-tenant-obl-cd5587e7",
+        "source": "party-tenant",
+        "target": "obl-cd5587e7",
+        "label": "binds",
+        "animated": true
+      },
+      {
+        "id": "edge-trigger-cd5587e7-obl-cd5587e7",
+        "source": "trigger-cd5587e7",
+        "target": "obl-cd5587e7",
+        "label": "initiates",
+        "animated": true
+      },
+      {
+        "id": "edge-obl-cd5587e7-deadline-cd5587e7",
+        "source": "obl-cd5587e7",
+        "target": "deadline-cd5587e7",
+        "label": "due by",
+        "animated": false
+      },
+      {
+        "id": "edge-obl-cd5587e7-conseq-cd5587e7",
+        "source": "obl-cd5587e7",
+        "target": "conseq-cd5587e7",
+        "label": "penalty / default",
+        "animated": true
+      },
+      {
+        "id": "edge-party-tenant-obl-86428726",
+        "source": "party-tenant",
+        "target": "obl-86428726",
+        "label": "binds",
+        "animated": true
+      },
+      {
+        "id": "edge-trigger-86428726-obl-86428726",
+        "source": "trigger-86428726",
+        "target": "obl-86428726",
+        "label": "initiates",
+        "animated": true
+      },
+      {
+        "id": "edge-obl-86428726-deadline-86428726",
+        "source": "obl-86428726",
+        "target": "deadline-86428726",
+        "label": "due by",
+        "animated": false
+      },
+      {
+        "id": "edge-obl-86428726-cond-86428726",
+        "source": "obl-86428726",
+        "target": "cond-86428726",
+        "label": "conditioned on",
+        "animated": false
+      },
+      {
+        "id": "edge-obl-86428726-conseq-86428726",
+        "source": "obl-86428726",
+        "target": "conseq-86428726",
+        "label": "penalty / default",
+        "animated": true
+      },
+      {
+        "id": "edge-clause-6-party-landlord",
+        "source": "clause-6",
+        "target": "party-landlord",
+        "label": "governs",
+        "animated": false
+      },
+      {
+        "id": "edge-party-landlord-obl-cad11e6d",
+        "source": "party-landlord",
+        "target": "obl-cad11e6d",
+        "label": "binds",
+        "animated": true
+      },
+      {
+        "id": "edge-trigger-cad11e6d-obl-cad11e6d",
+        "source": "trigger-cad11e6d",
+        "target": "obl-cad11e6d",
+        "label": "initiates",
+        "animated": true
+      },
+      {
+        "id": "edge-obl-cad11e6d-deadline-cad11e6d",
+        "source": "obl-cad11e6d",
+        "target": "deadline-cad11e6d",
+        "label": "due by",
+        "animated": false
+      },
+      {
+        "id": "edge-obl-cad11e6d-cond-cad11e6d",
+        "source": "obl-cad11e6d",
+        "target": "cond-cad11e6d",
+        "label": "conditioned on",
+        "animated": false
+      },
+      {
+        "id": "edge-obl-cad11e6d-conseq-cad11e6d",
+        "source": "obl-cad11e6d",
+        "target": "conseq-cad11e6d",
+        "label": "penalty / default",
+        "animated": true
+      },
+      {
+        "id": "edge-clause-6-party-tenant",
+        "source": "clause-6",
+        "target": "party-tenant",
+        "label": "governs",
+        "animated": false
+      },
+      {
+        "id": "edge-party-tenant-obl-cbe267d7",
+        "source": "party-tenant",
+        "target": "obl-cbe267d7",
+        "label": "binds",
+        "animated": true
+      },
+      {
+        "id": "edge-trigger-cbe267d7-obl-cbe267d7",
+        "source": "trigger-cbe267d7",
+        "target": "obl-cbe267d7",
+        "label": "initiates",
+        "animated": true
+      },
+      {
+        "id": "edge-obl-cbe267d7-deadline-cbe267d7",
+        "source": "obl-cbe267d7",
+        "target": "deadline-cbe267d7",
+        "label": "due by",
+        "animated": false
+      },
+      {
+        "id": "edge-obl-cbe267d7-conseq-cbe267d7",
+        "source": "obl-cbe267d7",
+        "target": "conseq-cbe267d7",
+        "label": "penalty / default",
+        "animated": true
+      },
+      {
+        "id": "edge-clause-8-party-landlord",
+        "source": "clause-8",
+        "target": "party-landlord",
+        "label": "governs",
+        "animated": false
+      },
+      {
+        "id": "edge-party-landlord-obl-84729432",
+        "source": "party-landlord",
+        "target": "obl-84729432",
+        "label": "binds",
+        "animated": true
+      },
+      {
+        "id": "edge-trigger-84729432-obl-84729432",
+        "source": "trigger-84729432",
+        "target": "obl-84729432",
+        "label": "initiates",
+        "animated": true
+      },
+      {
+        "id": "edge-obl-84729432-deadline-84729432",
+        "source": "obl-84729432",
+        "target": "deadline-84729432",
+        "label": "due by",
+        "animated": false
+      },
+      {
+        "id": "edge-obl-84729432-cond-84729432",
+        "source": "obl-84729432",
+        "target": "cond-84729432",
+        "label": "conditioned on",
+        "animated": false
+      },
+      {
+        "id": "edge-obl-84729432-conseq-84729432",
+        "source": "obl-84729432",
+        "target": "conseq-84729432",
+        "label": "penalty / default",
+        "animated": true
+      },
+      {
+        "id": "edge-clause-10-party-tenant",
+        "source": "clause-10",
+        "target": "party-tenant",
+        "label": "governs",
+        "animated": false
+      },
+      {
+        "id": "edge-party-tenant-obl-f1ec8c00",
+        "source": "party-tenant",
+        "target": "obl-f1ec8c00",
+        "label": "binds",
+        "animated": true
+      },
+      {
+        "id": "edge-trigger-f1ec8c00-obl-f1ec8c00",
+        "source": "trigger-f1ec8c00",
+        "target": "obl-f1ec8c00",
+        "label": "initiates",
+        "animated": true
+      },
+      {
+        "id": "edge-obl-f1ec8c00-deadline-f1ec8c00",
+        "source": "obl-f1ec8c00",
+        "target": "deadline-f1ec8c00",
+        "label": "due by",
+        "animated": false
+      },
+      {
+        "id": "edge-obl-f1ec8c00-conseq-f1ec8c00",
+        "source": "obl-f1ec8c00",
+        "target": "conseq-f1ec8c00",
+        "label": "penalty / default",
+        "animated": true
+      },
+      {
+        "id": "edge-clause-10-party-landlord",
+        "source": "clause-10",
+        "target": "party-landlord",
+        "label": "governs",
+        "animated": false
+      },
+      {
+        "id": "edge-party-landlord-obl-d66187f8",
+        "source": "party-landlord",
+        "target": "obl-d66187f8",
+        "label": "binds",
+        "animated": true
+      },
+      {
+        "id": "edge-trigger-d66187f8-obl-d66187f8",
+        "source": "trigger-d66187f8",
+        "target": "obl-d66187f8",
+        "label": "initiates",
+        "animated": true
+      },
+      {
+        "id": "edge-obl-d66187f8-deadline-d66187f8",
+        "source": "obl-d66187f8",
+        "target": "deadline-d66187f8",
+        "label": "due by",
+        "animated": false
+      },
+      {
+        "id": "edge-obl-d66187f8-cond-d66187f8",
+        "source": "obl-d66187f8",
+        "target": "cond-d66187f8",
+        "label": "conditioned on",
+        "animated": false
+      },
+      {
+        "id": "edge-obl-d66187f8-conseq-d66187f8",
+        "source": "obl-d66187f8",
+        "target": "conseq-d66187f8",
+        "label": "penalty / default",
+        "animated": true
+      },
+      {
+        "id": "edge-clause-11-party-tenant",
+        "source": "clause-11",
+        "target": "party-tenant",
+        "label": "governs",
+        "animated": false
+      },
+      {
+        "id": "edge-party-tenant-obl-72e4128b",
+        "source": "party-tenant",
+        "target": "obl-72e4128b",
+        "label": "binds",
+        "animated": true
+      },
+      {
+        "id": "edge-trigger-72e4128b-obl-72e4128b",
+        "source": "trigger-72e4128b",
+        "target": "obl-72e4128b",
+        "label": "initiates",
+        "animated": true
+      },
+      {
+        "id": "edge-obl-72e4128b-deadline-72e4128b",
+        "source": "obl-72e4128b",
+        "target": "deadline-72e4128b",
+        "label": "due by",
+        "animated": false
+      },
+      {
+        "id": "edge-obl-72e4128b-conseq-72e4128b",
+        "source": "obl-72e4128b",
+        "target": "conseq-72e4128b",
+        "label": "penalty / default",
+        "animated": true
+      },
+      {
+        "id": "edge-clause-12-party-either-party",
+        "source": "clause-12",
+        "target": "party-either-party",
+        "label": "governs",
+        "animated": false
+      },
+      {
+        "id": "edge-party-either-party-obl-cc37c228",
+        "source": "party-either-party",
+        "target": "obl-cc37c228",
+        "label": "binds",
+        "animated": true
+      },
+      {
+        "id": "edge-trigger-cc37c228-obl-cc37c228",
+        "source": "trigger-cc37c228",
+        "target": "obl-cc37c228",
+        "label": "initiates",
+        "animated": true
+      },
+      {
+        "id": "edge-obl-cc37c228-deadline-cc37c228",
+        "source": "obl-cc37c228",
+        "target": "deadline-cc37c228",
+        "label": "due by",
+        "animated": false
+      },
+      {
+        "id": "edge-obl-cc37c228-cond-cc37c228",
+        "source": "obl-cc37c228",
+        "target": "cond-cc37c228",
+        "label": "conditioned on",
+        "animated": false
+      },
+      {
+        "id": "edge-obl-cc37c228-conseq-cc37c228",
+        "source": "obl-cc37c228",
+        "target": "conseq-cc37c228",
+        "label": "penalty / default",
+        "animated": true
+      }
+    ]
+  },
+  "timeline": {
+    "contract_id": "eee76876-aad8-4928-8a73-70d4c8cc2bfa",
+    "items": [
+      {
+        "id": "timeline-ade62ce4",
+        "obligation_id": "ade62ce4-3e82-4a02-b47d-10ec62d5216d",
+        "party": "Tenant",
+        "action": "Deposit security deposit (\u20b960,000)",
+        "timing_type": "initial",
+        "time_label": "Day 1 (Contract Execution)",
+        "order_index": 10,
+        "trigger": "Execution of tenancy agreement",
+        "condition": null,
+        "status": "Completed",
+        "source_clause": "Clause 4: Security Deposit and Refund",
+        "source_page": 1
+      },
+      {
+        "id": "timeline-2047eaee",
+        "obligation_id": "2047eaee-7193-4c7b-aca0-b8cf7c036039",
+        "party": "Tenant",
+        "action": "Pay monthly rent (\u20b920,000)",
+        "timing_type": "recurring",
+        "time_label": "5th of Every Month",
+        "order_index": 20,
+        "trigger": "Beginning of each rental month",
+        "condition": null,
+        "status": "Pending",
+        "source_clause": "Clause 3: Monthly Rent and Late Fees",
+        "source_page": 1
+      },
+      {
+        "id": "timeline-cd5587e7",
+        "obligation_id": "cd5587e7-9aa9-4ccc-b461-de953030fc1c",
+        "party": "Tenant",
+        "action": "Pay utility charges (Actual billing amount)",
+        "timing_type": "recurring",
+        "time_label": "5th of Every Month",
+        "order_index": 20,
+        "trigger": "Receipt of respective utility invoice",
+        "condition": null,
+        "status": "Pending",
+        "source_clause": "Clause 5: Utility Bills and Municipal Outgoings",
+        "source_page": 2
+      },
+      {
+        "id": "timeline-86428726",
+        "obligation_id": "86428726-80c1-499f-94d2-8ff29012a493",
+        "party": "Tenant",
+        "action": "Furnish utility receipts",
+        "timing_type": "recurring",
+        "time_label": "5th of Every Month",
+        "order_index": 20,
+        "trigger": "Landlord request",
+        "condition": "Upon request by the Landlord",
+        "status": "Pending",
+        "source_clause": "Clause 5: Utility Bills and Municipal Outgoings",
+        "source_page": 2
+      },
+      {
+        "id": "timeline-cbe267d7",
+        "obligation_id": "cbe267d7-385d-475e-8ef7-57eae7a3776b",
+        "party": "Tenant",
+        "action": "Maintain minor fixtures and cleanliness",
+        "timing_type": "ongoing",
+        "time_label": "Continuous Tenancy Duration",
+        "order_index": 30,
+        "trigger": "Occupancy",
+        "condition": null,
+        "status": "Pending",
+        "source_clause": "Clause 6: Maintenance and Structural Repairs",
+        "source_page": 2
+      },
+      {
+        "id": "timeline-cad11e6d",
+        "obligation_id": "cad11e6d-4a08-40ae-9467-71ec6f019130",
+        "party": "Landlord",
+        "action": "Complete major structural repairs",
+        "timing_type": "event_driven",
+        "time_label": "Trigger + 7 Days",
+        "order_index": 40,
+        "trigger": "Tenant reports qualifying maintenance issue in writing",
+        "condition": "Provided damage is not caused by willful negligence of Tenant",
+        "status": "Pending",
+        "source_clause": "Clause 6: Maintenance and Structural Repairs",
+        "source_page": 2
+      },
+      {
+        "id": "timeline-84729432",
+        "obligation_id": "84729432-6ef1-4991-832a-47ecf1effc7f",
+        "party": "Landlord",
+        "action": "Give advance inspection notice",
+        "timing_type": "event_driven",
+        "time_label": "Inspection - 24 Hours Prior",
+        "order_index": 45,
+        "trigger": "Intent to inspect premises",
+        "condition": "Except in urgent emergency involving water leakage or fire",
+        "status": "Pending",
+        "source_clause": "Clause 8: Landlord Right of Inspection and Entry",
+        "source_page": 3
+      },
+      {
+        "id": "timeline-d7f03758",
+        "obligation_id": "d7f03758-b8cc-4685-985f-009a55034d7b",
+        "party": "Tenant",
+        "action": "Pay late payment fee (\u20b9500/day)",
+        "timing_type": "event_driven",
+        "time_label": "Immediate upon breach",
+        "order_index": 50,
+        "trigger": "Delayed payment beyond the 5th day",
+        "condition": "If rent remains unpaid beyond the 5th day of the month",
+        "status": "Pending",
+        "source_clause": "Clause 3: Monthly Rent and Late Fees",
+        "source_page": 1
+      },
+      {
+        "id": "timeline-cc37c228",
+        "obligation_id": "cc37c228-6f04-4d01-9b33-61bead30b226",
+        "party": "Either party",
+        "action": "Attempt amicable conciliation",
+        "timing_type": "event_driven",
+        "time_label": "Dispute notice + 15 days",
+        "order_index": 50,
+        "trigger": "Any controversy or claim arising under this agreement",
+        "condition": "Prior to initiating formal arbitration",
+        "status": "Pending",
+        "source_clause": "Clause 12: Governing Law and Dispute Resolution",
+        "source_page": 4
+      },
+      {
+        "id": "timeline-f1ec8c00",
+        "obligation_id": "f1ec8c00-2916-4932-a2d5-61588cce0ba2",
+        "party": "Tenant",
+        "action": "Provide termination notice",
+        "timing_type": "terminal",
+        "time_label": "30 Days Before Termination",
+        "order_index": 70,
+        "trigger": "Intention to terminate agreement prior to natural expiry",
+        "condition": null,
+        "status": "Pending",
+        "source_clause": "Clause 10: Termination and Notice Period",
+        "source_page": 3
+      },
+      {
+        "id": "timeline-d66187f8",
+        "obligation_id": "d66187f8-a1df-45ff-916d-669a82e48bdb",
+        "party": "Landlord",
+        "action": "Provide termination notice",
+        "timing_type": "terminal",
+        "time_label": "30 Days Before Termination",
+        "order_index": 70,
+        "trigger": "Intention to terminate agreement or persistent covenant breach",
+        "condition": "7 days in event of persistent covenant breach",
+        "status": "Pending",
+        "source_clause": "Clause 10: Termination and Notice Period",
+        "source_page": 3
+      },
+      {
+        "id": "timeline-72e4128b",
+        "obligation_id": "72e4128b-61b4-4a24-bf4a-b821f0ced842",
+        "party": "Tenant",
+        "action": "Surrender keys and vacant possession",
+        "timing_type": "terminal",
+        "time_label": "Final Lease Day (12:00 PM)",
+        "order_index": 80,
+        "trigger": "Final day of tenancy",
+        "condition": null,
+        "status": "Pending",
+        "source_clause": "Clause 11: Surrender of Premises and Key Handover",
+        "source_page": 3
+      },
+      {
+        "id": "timeline-d549b371",
+        "obligation_id": "d549b371-bda8-4e2e-9abe-1aecf5153237",
+        "party": "Landlord",
+        "action": "Refund security deposit (\u20b960,000 (less deductions))",
+        "timing_type": "terminal",
+        "time_label": "Within 30 Days Post-Tenancy",
+        "order_index": 90,
+        "trigger": "End of tenancy and peaceful surrender of premises",
+        "condition": "Subject to permitted deductions for unpaid rent, utilities, or documented damages",
+        "status": "Pending",
+        "source_clause": "Clause 4: Security Deposit and Refund",
+        "source_page": 1
+      }
+    ]
+  },
+  "analytics": {
+    "contract_id": "eee76876-aad8-4928-8a73-70d4c8cc2bfa",
+    "total_clauses": 12,
+    "total_obligations": 13,
+    "deadlines_count": 13,
+    "recurring_count": 4,
+    "conditional_count": 7,
+    "obligations_by_party": {
+      "Tenant": 8,
+      "Landlord": 4,
+      "Either party": 1
+    },
+    "obligations_by_type": {
+      "Payment": 5,
+      "Operational": 1,
+      "Maintenance": 2,
+      "Notice": 3,
+      "Surrender": 1,
+      "Dispute Resolution": 1
+    },
+    "status_breakdown": {
+      "Pending": 12,
+      "Completed": 1
+    },
+    "confidence_distribution": {
+      "High (\u226590%)": 10,
+      "Medium (75\u201389%)": 3,
+      "Needs Review (<75%)": 0
+    },
+    "attention_flags_count": 14
+  },
+  "reminders": [
+    {
+      "id": "426b377a-03f8-4961-a2f7-7c705e713896",
+      "contract_id": "eee76876-aad8-4928-8a73-70d4c8cc2bfa",
+      "obligation_id": "2047eaee-7193-4c7b-aca0-b8cf7c036039",
+      "title": "Tenant: Pay monthly rent",
+      "due_date": "Day 5 of every month",
+      "reminder_date": "Upcoming milestone alert",
+      "is_simulated": true,
+      "is_dismissed": false,
+      "created_at": "2026-09-21T16:55:03.818864"
+    },
+    {
+      "id": "5982e29f-f1f1-4f38-936b-f3e408194527",
+      "contract_id": "eee76876-aad8-4928-8a73-70d4c8cc2bfa",
+      "obligation_id": "d7f03758-b8cc-4685-985f-009a55034d7b",
+      "title": "Tenant: Pay late payment fee",
+      "due_date": "Immediate upon breach",
+      "reminder_date": "Upcoming milestone alert",
+      "is_simulated": true,
+      "is_dismissed": false,
+      "created_at": "2026-09-21T16:55:03.818873"
+    },
+    {
+      "id": "61399431-9851-4715-9e49-c551c91061f6",
+      "contract_id": "eee76876-aad8-4928-8a73-70d4c8cc2bfa",
+      "obligation_id": "ade62ce4-3e82-4a02-b47d-10ec62d5216d",
+      "title": "Tenant: Deposit security deposit",
+      "due_date": "Contract signing date",
+      "reminder_date": "Upcoming milestone alert",
+      "is_simulated": true,
+      "is_dismissed": false,
+      "created_at": "2026-09-21T16:55:03.818877"
+    },
+    {
+      "id": "29948d18-7b40-4982-823a-a9f3e561491b",
+      "contract_id": "eee76876-aad8-4928-8a73-70d4c8cc2bfa",
+      "obligation_id": "d549b371-bda8-4e2e-9abe-1aecf5153237",
+      "title": "Landlord: Refund security deposit",
+      "due_date": "Tenancy end date + 30 days",
+      "reminder_date": "Upcoming milestone alert",
+      "is_simulated": true,
+      "is_dismissed": false,
+      "created_at": "2026-09-21T16:55:03.818880"
+    },
+    {
+      "id": "07d2a2ca-c325-4919-bfb0-6ed409bb7e13",
+      "contract_id": "eee76876-aad8-4928-8a73-70d4c8cc2bfa",
+      "obligation_id": "cd5587e7-9aa9-4ccc-b461-de953030fc1c",
+      "title": "Tenant: Pay utility charges",
+      "due_date": "Bill receipt + 7 days",
+      "reminder_date": "Upcoming milestone alert",
+      "is_simulated": true,
+      "is_dismissed": false,
+      "created_at": "2026-09-21T16:55:03.818884"
+    },
+    {
+      "id": "ab2dfb70-55b0-4870-9357-f9dfdb853cf5",
+      "contract_id": "eee76876-aad8-4928-8a73-70d4c8cc2bfa",
+      "obligation_id": "86428726-80c1-499f-94d2-8ff29012a493",
+      "title": "Tenant: Furnish utility receipts",
+      "due_date": "Day 10 of each month",
+      "reminder_date": "Upcoming milestone alert",
+      "is_simulated": true,
+      "is_dismissed": false,
+      "created_at": "2026-09-21T16:55:03.818888"
+    },
+    {
+      "id": "d072c827-9726-422e-ac62-46a946cb18dd",
+      "contract_id": "eee76876-aad8-4928-8a73-70d4c8cc2bfa",
+      "obligation_id": "cad11e6d-4a08-40ae-9467-71ec6f019130",
+      "title": "Landlord: Complete major structural repairs",
+      "due_date": "Notice date + 7 days",
+      "reminder_date": "Upcoming milestone alert",
+      "is_simulated": true,
+      "is_dismissed": false,
+      "created_at": "2026-09-21T16:55:03.818891"
+    },
+    {
+      "id": "45e469fa-25bd-4507-8286-a94010e971cc",
+      "contract_id": "eee76876-aad8-4928-8a73-70d4c8cc2bfa",
+      "obligation_id": "cbe267d7-385d-475e-8ef7-57eae7a3776b",
+      "title": "Tenant: Maintain minor fixtures and cleanliness",
+      "due_date": "Continuous lease term",
+      "reminder_date": "Upcoming milestone alert",
+      "is_simulated": true,
+      "is_dismissed": false,
+      "created_at": "2026-09-21T16:55:03.818895"
+    },
+    {
+      "id": "4afae92d-596b-44c5-8444-26b8c7176c27",
+      "contract_id": "eee76876-aad8-4928-8a73-70d4c8cc2bfa",
+      "obligation_id": "84729432-6ef1-4991-832a-47ecf1effc7f",
+      "title": "Landlord: Give advance inspection notice",
+      "due_date": "Inspection time - 24 hours",
+      "reminder_date": "Upcoming milestone alert",
+      "is_simulated": true,
+      "is_dismissed": false,
+      "created_at": "2026-09-21T16:55:03.818898"
+    },
+    {
+      "id": "9d93574e-e013-4723-a1d4-dc8b2accdf95",
+      "contract_id": "eee76876-aad8-4928-8a73-70d4c8cc2bfa",
+      "obligation_id": "f1ec8c00-2916-4932-a2d5-61588cce0ba2",
+      "title": "Tenant: Provide termination notice",
+      "due_date": "Termination date - 30 days",
+      "reminder_date": "Upcoming milestone alert",
+      "is_simulated": true,
+      "is_dismissed": false,
+      "created_at": "2026-09-21T16:55:03.818901"
+    },
+    {
+      "id": "d889ebe8-af5d-45af-87ed-58a33de0fb7f",
+      "contract_id": "eee76876-aad8-4928-8a73-70d4c8cc2bfa",
+      "obligation_id": "d66187f8-a1df-45ff-916d-669a82e48bdb",
+      "title": "Landlord: Provide termination notice",
+      "due_date": "Termination date - 30 days",
+      "reminder_date": "Upcoming milestone alert",
+      "is_simulated": true,
+      "is_dismissed": false,
+      "created_at": "2026-09-21T16:55:03.818904"
+    },
+    {
+      "id": "564146b6-be65-4520-a505-8f464d5ad68e",
+      "contract_id": "eee76876-aad8-4928-8a73-70d4c8cc2bfa",
+      "obligation_id": "72e4128b-61b4-4a24-bf4a-b821f0ced842",
+      "title": "Tenant: Surrender keys and vacant possession",
+      "due_date": "Final day 12:00 PM",
+      "reminder_date": "Upcoming milestone alert",
+      "is_simulated": true,
+      "is_dismissed": false,
+      "created_at": "2026-09-21T16:55:03.818907"
+    },
+    {
+      "id": "8e365705-ba4c-437d-b990-1fc5db6d13bb",
+      "contract_id": "eee76876-aad8-4928-8a73-70d4c8cc2bfa",
+      "obligation_id": "cc37c228-6f04-4d01-9b33-61bead30b226",
+      "title": "Either party: Attempt amicable conciliation",
+      "due_date": "Dispute notice + 15 days",
+      "reminder_date": "Upcoming milestone alert",
+      "is_simulated": true,
+      "is_dismissed": false,
+      "created_at": "2026-09-21T16:55:03.818910"
+    }
+  ],
+  "evaluation": {
+    "dataset_name": "Prototype Evaluation Dataset (Residential & Commercial Agreements)",
+    "total_samples": 22,
+    "clause_detection": {
+      "precision": 1.0,
+      "recall": 0.98,
+      "f1_score": 0.99,
+      "detected_count": 12.0,
+      "ground_truth_count": 12.0
+    },
+    "obligation_extraction": {
+      "actor_accuracy": 0.955,
+      "action_accuracy": 1.0,
+      "deadline_accuracy": 1.0,
+      "overall_f1": 0.945
+    },
+    "evidence_retrieval": {
+      "precision_at_1": 0.923,
+      "precision_at_3": 0.962,
+      "mean_reciprocal_rank": 0.952
+    },
+    "qa_performance": {
+      "answer_correctness": 0.941,
+      "evidence_attribution_accuracy": 0.98
+    },
+    "human_correction_rate": 0.038,
+    "benchmark_samples": [
+      {
+        "id": "GT-OBL-001",
+        "clause_number": "3",
+        "clause_title": "Monthly Rent and Late Fees",
+        "actor": "Tenant",
+        "action": "Pay monthly rent",
+        "object": "Rent amount of \u20b920,000",
+        "amount": "\u20b920,000",
+        "frequency": "Monthly",
+        "trigger": "Beginning of each calendar rental month",
+        "condition": null,
+        "deadline_text": "on or before the 5th day of each calendar month",
+        "normalized_deadline": "Day 5 of every month",
+        "consequence": "Late payment penalty of \u20b9500 per day of delay",
+        "evidence_text": "The Tenant shall pay to the Landlord a monthly rent of \u20b920,000 on or before the 5th day of each calendar month in advance.",
+        "page_number": 1
+      },
+      {
+        "id": "GT-OBL-002",
+        "clause_number": "3",
+        "clause_title": "Monthly Rent and Late Fees",
+        "actor": "Tenant",
+        "action": "Pay late payment penalty",
+        "object": "Late fee of \u20b9500 per day",
+        "amount": "\u20b9500/day",
+        "frequency": "Daily upon delay",
+        "trigger": "Failure to pay rent on or before the 5th day",
+        "condition": "If rent remains unpaid beyond the 5th day",
+        "deadline_text": "immediately upon demand or with next installment",
+        "normalized_deadline": "Immediate upon breach",
+        "consequence": "Cumulative interest and default notice",
+        "evidence_text": "In the event of default, the Tenant agrees to pay a late fee of \u20b9500 per day until the entire outstanding amount is remitted.",
+        "page_number": 1
+      },
+      {
+        "id": "GT-OBL-003",
+        "clause_number": "4",
+        "clause_title": "Security Deposit and Refund",
+        "actor": "Tenant",
+        "action": "Deposit interest-free security amount",
+        "object": "Security deposit",
+        "amount": "\u20b960,000",
+        "frequency": "One-time",
+        "trigger": "Execution of this agreement",
+        "condition": null,
+        "deadline_text": "upon signing of this agreement",
+        "normalized_deadline": "Contract signing date",
+        "consequence": "Non-delivery of possession of the premises",
+        "evidence_text": "The Tenant shall deposit and maintain with the Landlord an interest-free refundable security deposit of \u20b960,000 upon execution of this agreement.",
+        "page_number": 1
+      },
+      {
+        "id": "GT-OBL-004",
+        "clause_number": "4",
+        "clause_title": "Security Deposit and Refund",
+        "actor": "Landlord",
+        "action": "Refund security deposit",
+        "object": "Security deposit balance",
+        "amount": "\u20b960,000 (less permitted deductions)",
+        "frequency": "One-time",
+        "trigger": "End of tenancy and peaceful surrender of premises",
+        "condition": "Subject to permitted deductions for unpaid rent, utilities, or documented structural damage",
+        "deadline_text": "within 30 days following the handover of peaceful vacant possession",
+        "normalized_deadline": "Tenancy end date + 30 days",
+        "consequence": "Statutory interest penalty of 9% per annum on withheld amount",
+        "evidence_text": "The Landlord shall refund the security deposit within 30 days following the peaceful surrender of the premises, subject to permitted deductions.",
+        "page_number": 1
+      },
+      {
+        "id": "GT-OBL-005",
+        "clause_number": "5",
+        "clause_title": "Utility Bills and Municipal Outgoings",
+        "actor": "Tenant",
+        "action": "Pay utility charges",
+        "object": "Electricity, water, and internet bills",
+        "amount": "Actual billing amount",
+        "frequency": "Monthly",
+        "trigger": "Receipt of respective utility invoices",
+        "condition": null,
+        "deadline_text": "within 7 days of receiving the respective invoice or bill",
+        "normalized_deadline": "Bill receipt + 7 days",
+        "consequence": "Disconnection penalty and Landlord settlement recovery",
+        "evidence_text": "The Tenant shall promptly pay all charges for electricity, water, and high-speed internet consumed within 7 days of receiving the respective bill.",
+        "page_number": 2
+      },
+      {
+        "id": "GT-OBL-006",
+        "clause_number": "5",
+        "clause_title": "Utility Bills and Municipal Outgoings",
+        "actor": "Tenant",
+        "action": "Furnish utility payment receipts to Landlord",
+        "object": "Proof of payment",
+        "amount": null,
+        "frequency": "Monthly",
+        "trigger": "Remittance of utility billing amount",
+        "condition": "Upon request by the Landlord",
+        "deadline_text": "no later than the 10th of each calendar month",
+        "normalized_deadline": "Day 10 of each month",
+        "consequence": "Assumption of non-payment",
+        "evidence_text": "The Tenant shall furnish copies of paid utility receipts to the Landlord upon request no later than the 10th of each month.",
+        "page_number": 2
+      },
+      {
+        "id": "GT-OBL-007",
+        "clause_number": "6",
+        "clause_title": "Maintenance and Structural Repairs",
+        "actor": "Landlord",
+        "action": "Complete major structural and plumbing repairs",
+        "object": "Structural maintenance",
+        "amount": null,
+        "frequency": "As needed",
+        "trigger": "Tenant reports qualifying major defect in writing",
+        "condition": "Damage not caused by willful negligence of Tenant",
+        "deadline_text": "within 7 days of written notification from the Tenant",
+        "normalized_deadline": "Notice date + 7 days",
+        "consequence": "Tenant right to repair and deduct reasonable costs from subsequent rent",
+        "evidence_text": "The Landlord shall complete necessary major structural and plumbing repairs within 7 days of written notification from the Tenant.",
+        "page_number": 2
+      },
+      {
+        "id": "GT-OBL-008",
+        "clause_number": "6",
+        "clause_title": "Maintenance and Structural Repairs",
+        "actor": "Tenant",
+        "action": "Maintain minor fixtures and cleanliness",
+        "object": "Internal fixtures, light bulbs, minor drain cleanings",
+        "amount": null,
+        "frequency": "Ongoing",
+        "trigger": "Daily occupancy",
+        "condition": null,
+        "deadline_text": "throughout the subsistence of the tenancy",
+        "normalized_deadline": "Ongoing tenancy term",
+        "consequence": "Deduction from security deposit upon vacating",
+        "evidence_text": "The Tenant is responsible for day-to-day cleanliness and minor repairs of fuses, tap washers, and fittings at their own expense.",
+        "page_number": 2
+      }
+    ]
+  }
+}

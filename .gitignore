@@ -45,6 +45,7 @@ uploads/*
 .DS_Store
 Thumbs.db
 
-# Vite / Build Caches
+# Firebase & Vite Caches
+.firebase/
 .vite/
 frontend/.vite/
