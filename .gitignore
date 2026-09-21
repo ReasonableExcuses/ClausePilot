@@ -1,0 +1,50 @@
+# Python & Virtual Environments
+venv/
+.venv/
+env/
+ENV/
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Node.js & Frontend
+node_modules/
+frontend/node_modules/
+frontend/dist/
+dist/
+.npm
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Databases & Runtime Data
+*.db
+*.sqlite
+*.sqlite3
+backend/clausepilot.db
+
+# User Uploads (except placeholder .gitkeep)
+uploads/*
+!uploads/.gitkeep
+
+# Environment & Secret Files
+.env
+.env.local
+.env.*.local
+!.env.example
+
+# IDE & OS Artifacts
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Vite / Build Caches
+.vite/
+frontend/.vite/
